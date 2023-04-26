@@ -1,0 +1,8 @@
+{
+    "structure": {
+        "readme": "BOOKREADME.md",
+        "summary": "COMPLETESUMMARY.md"
+    },
+    "title": "Web Skillup",
+    "plugins": ["toggle-chapters"]
+}
