@@ -10,6 +10,7 @@
     - [Bootstrap](Lesson02Css/Bootstrap.md)
     - [CSS Preprocessors](Lesson02Css/CssPreprocessors.md)
 - [Lesson 3: Hello JavaScript!](Lesson03HelloJs/StudentDesc.md)
+  - [Code-Along](Lesson03HelloJs/AboutMeAlertCodeAlong.md)
 - [Lesson 4: Variables & Data](Lesson04VariablesAndData/StudentDesc.md)
 - [Lesson 5: Buttons & Functions](Lesson05ButtonsAndFunctions/StudentDesc.md)
 - [Lesson 6: Conditionals](Lesson06Conditionals/StudentDesc.md)

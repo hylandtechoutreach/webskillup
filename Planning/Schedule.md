@@ -35,7 +35,7 @@ End the training on a strong note - the participants should feel inspired and em
 
 ### Monday
 - 10-10:30am | Preface
-- 10:30am-12pm | HTML & CSS
+- 10:30am-12pm | HTML, CSS, & Hello JS
 - 12-1pm | Lunch
 - 1-2pm | Variables & Data
 - 2-2:15pm | Break
