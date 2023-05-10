@@ -1,0 +1,1 @@
+this can be quick, also include ternary operators / talk about undefined
