@@ -26,6 +26,7 @@ Styles for the web.
 ## JavaScript - Programming Basics
 The basic programming concepts that are generally known.
 
+- `<script>` element
 - `alert` (Output)
 - Variables & Data Types
 - `prompt` (Input)

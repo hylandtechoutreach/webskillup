@@ -9,13 +9,13 @@ By the end of this lesson, students will be able to:
 - Find the right CSS property for any need
 
 ## Introduction
-Kick things off by presenting the [Introduction to CSS PowerPoint](Introduction.pptx).
+Kick things off by presenting the [Introduction to CSS PowerPoint](IntroductionToCss.pptx).
 
 ## Code-Along: About Me Styles
 Walk through the [instructions](AboutMeStylesCodeAlong.md) to help participants add styles to their personal About Me websites. They should use the sites they built from the previous lesson's [About Me Code-Along](../Lesson01Html/AboutMeCodeAlong.md).
 
 ## Advanced Topics Overview
-Lead into the self-paced work by presenting the [Advanced Topics Overview PowerPoint](AdvancedTopicsOverview.pptx).
+Lead into the self-paced work by presenting the [Advanced Topics Overview PowerPoint](AdvancedCssTopics.pptx).
 
 ## Self-Paced Work: Exploration
 Participants should have some time to dig into the [self-paced work](CssExplorationSelfPacedWork.md).
@@ -27,4 +27,4 @@ Participants should have some time to dig into the [self-paced work](CssExplorat
 | Introduction | 5m |
 | Code-Along | 15m |
 | Advanced Topics Overview | 10m |
-| Self-Paced Work | 30m |
+| Self-Paced Work | 15m |
