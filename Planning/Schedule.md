@@ -29,3 +29,26 @@ End the training on a strong note - the participants should feel inspired and em
 - Resources
 - Reaching Us
 - Some form of assessment
+
+
+## Timing
+
+### Monday
+- 10-10:30am | Preface
+- 10:30am-12pm | HTML & CSS
+- 12-1pm | Lunch
+- 1-2pm | Variables & Data
+- 2-2:15pm | Break
+- 2:15-3:45pm | Functions
+- 3:45-4pm | Break
+- 4-5pm | Conditionals
+
+### Tuesday
+- 9-10:45am | DOM Manipulation
+- 10:45-11am | Break
+- 11am-12pm | Arrays
+- 12-1pm | Lunch
+- 1-2:15pm | For Loops
+- 2:15-2:30pm | Break
+- 2:45-4pm | Objects
+- 4-5pm | Conclusion

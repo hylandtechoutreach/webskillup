@@ -99,7 +99,7 @@ This works a lot like the `class`, just with `id` instead! In the **index.html**
 <h2 id="form-head">Form</h2>
 ```
 
-### CSS: Selecting by the Class
+### CSS: Selecting by the ID
 Next, select that specific heading with CSS. Instead of a `.` like with classes, `id`s use `#`.
 
 1. Open the **style.css** file for editing

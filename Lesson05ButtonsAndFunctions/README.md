@@ -1,0 +1,1 @@
+talk about arrow functions, event listeners, callbacks
