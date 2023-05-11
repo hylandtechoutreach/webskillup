@@ -2,7 +2,7 @@
 This lesson introduces CSS, and provides a look into some advanced features of the language as well.
 
 ## Learning Objectives
-By the end of this lesson, students will be able to:
+By the end of this lesson, participants will be able to:
 
 - Create and link CSS files to HTML
 - Utilize various CSS selectors, including `id` and `class`
