@@ -2,7 +2,7 @@
 Read through this guide to familiarize yourself with the concept of variables, and learn how to use `prompt` to retrieve data.
 
 ## Variables
-In computer science, a **variable** is a named storage location. Each variable has**value**, which can be a number, a block of text, or some other piece of data.
+In computer science, a **variable** is a named storage location. Each variable has a **value**, which can be a number, a block of text, or some other piece of data.
 
 ![](../Assets/VariableVisual.jpg)
 
@@ -13,7 +13,7 @@ The following statement uses the `let` keyword to create (or in other words, _de
 let team;
 ```
 
->Note: `var` may be used in place of `let`, but it is the "older" way of writing JavaScript
+>Note: `var` may be used in place of `let`, but `let` is preferred in modern JS
 
 To actually give a value to the variable, use the equals sign (`=`):
 
