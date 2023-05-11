@@ -19,7 +19,7 @@ Walk through the [instructions](MadLibsCodeAlong.md) with the participants.
 Introduce the [challenges](VariablesChallenges.md), and assist the participants as they work through them.
 
 ## Formative Assessment: Blooket
-Facilitate the [Blooket quiz game](TODO).
+Facilitate the [Blooket quiz game](https://dashboard.blooket.com/set/645d479c95a16ca350aba053). Note that it also includes some trivia just for fun.
 
 ## Agenda
 
