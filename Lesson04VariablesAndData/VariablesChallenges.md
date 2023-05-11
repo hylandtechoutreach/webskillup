@@ -2,7 +2,7 @@
 Complete these challenges.
 
 ## Mad Libs Updates
-Update the Mad Libs by adding another sentence, or changing the story entirely! It can be anything. Come up with a totally original story, pull from a Wikipedia article, or find another public domain piece of text.
+Update the [Mad Libs](MadLibsCodeAlong.md) by adding another sentence, or changing the story entirely! It can be anything. Come up with a totally original story, pull from a Wikipedia article, or find another public domain piece of text.
 
 As the story continues, though, it may become a little difficult to handle... luckily, **template strings** help a lot!
 
