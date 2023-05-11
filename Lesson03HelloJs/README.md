@@ -2,7 +2,7 @@
 This super-brief lesson is designed to introduce participants to the idea of JavaScript, and have them create their first JavaScript program.
 
 ## Learning Objectives
-By the end of this lesson, students will be able to:
+By the end of this lesson, participants will be able to:
 
 - Understand that JavaScript adds interactivity to websites
 - Display a pop-up message on a website with JavaScript
