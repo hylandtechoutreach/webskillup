@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Additional Topics · Web Skillup</title>
+        <title>Guide · Web Skillup</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../Resources.html" />
+    <link rel="next" href="FurtherReading.html" />
     
     
-    <link rel="prev" href="../Lesson10Objects/StudentDesc.html" />
+    <link rel="prev" href="StudentDesc.html" />
     
 
     </head>
@@ -294,9 +294,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../Lesson04VariablesAndData/StudentDesc.html">
+        <li class="chapter " data-level="1.5" data-path="StudentDesc.html">
             
-                <a href="../Lesson04VariablesAndData/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Lesson 4: Variables & Data
@@ -308,9 +308,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../Lesson04VariablesAndData/VariablesDataPromptGuide.html">
+        <li class="chapter active" data-level="1.5.1" data-path="VariablesDataPromptGuide.html">
             
-                <a href="../Lesson04VariablesAndData/VariablesDataPromptGuide.html">
+                <a href="VariablesDataPromptGuide.html">
             
                     
                     Guide
@@ -321,9 +321,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../Lesson04VariablesAndData/FurtherReading.html">
+        <li class="chapter " data-level="1.5.2" data-path="FurtherReading.html">
             
-                <a href="../Lesson04VariablesAndData/FurtherReading.html">
+                <a href="FurtherReading.html">
             
                     
                     Further Reading
@@ -334,9 +334,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../Lesson04VariablesAndData/MadLibsCodeAlong.html">
+        <li class="chapter " data-level="1.5.3" data-path="MadLibsCodeAlong.html">
             
-                <a href="../Lesson04VariablesAndData/MadLibsCodeAlong.html">
+                <a href="MadLibsCodeAlong.html">
             
                     
                     Code-Along
@@ -347,9 +347,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../Lesson04VariablesAndData/VariablesChallenges.html">
+        <li class="chapter " data-level="1.5.4" data-path="VariablesChallenges.html">
             
-                <a href="../Lesson04VariablesAndData/VariablesChallenges.html">
+                <a href="VariablesChallenges.html">
             
                     
                     Challenges
@@ -361,9 +361,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.4.1" data-path="../Lesson04VariablesAndData/ExistingProjects.html">
+        <li class="chapter " data-level="1.5.4.1" data-path="ExistingProjects.html">
             
-                <a href="../Lesson04VariablesAndData/ExistingProjects.html">
+                <a href="ExistingProjects.html">
             
                     
                     Existing Projects
@@ -374,9 +374,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4.2" data-path="../Lesson04VariablesAndData/QuestionsExercise.html">
+        <li class="chapter " data-level="1.5.4.2" data-path="QuestionsExercise.html">
             
-                <a href="../Lesson04VariablesAndData/QuestionsExercise.html">
+                <a href="QuestionsExercise.html">
             
                     
                     Questions Exercise
@@ -475,9 +475,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.12" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.12" data-path="../AdditionalTopics/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../AdditionalTopics/StudentDesc.html">
             
                     
                     Additional Topics
@@ -531,7 +531,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Additional Topics</a>
+        <a href=".." >Guide</a>
     </h1>
 </div>
 
@@ -546,18 +546,89 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="additional-topics">Additional Topics</h1>
-<p>Learn more about what JavaScript can do!</p>
-<p>Things like:</p>
-<ul>
-<li><code>try</code>/<code>catch</code></li>
-<li>Classes</li>
-<li>Web Components</li>
-<li>TypeScript</li>
-<li>Modules</li>
-<li>Libraries</li>
-<li>Resources</li>
-</ul>
+                                <h1 id="variables-data-types-and-prompt">Variables, Data Types, and <code>prompt</code></h1>
+<p>Read through this guide to familiarize yourself with the concept of variables, and learn how to use <code>prompt</code> to retrieve data.</p>
+<h2 id="variables">Variables</h2>
+<p>In computer science, a <strong>variable</strong> is a named storage location. Each variable has a <strong>value</strong>, which can be a number, a block of text, or some other piece of data.</p>
+<p><img src="../Assets/VariableVisual.jpg" alt=""></p>
+<h3 id="creating-a-variable">Creating a Variable</h3>
+<p>The following statement uses the <code>let</code> keyword to create (or in other words, <em>declare</em>) a new variable named <code>team</code>:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> team;
+</code></pre>
+<blockquote>
+<p>Note: <code>var</code> may be used in place of <code>let</code>, but <code>let</code> is preferred in modern JS</p>
+</blockquote>
+<p>To actually give a value to the variable, use the equals sign (<code>=</code>):</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> team;
+
+team = <span class="hljs-string">&quot;Seattle SuperSonics&quot;</span>;
+</code></pre>
+<blockquote>
+<p>Note: A single equals sign is for <em>assignment</em> in JavaScript, not comparison</p>
+</blockquote>
+<p>These are generally combined, like so:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> team = <span class="hljs-string">&quot;Seattle SuperSonics&quot;</span>;
+</code></pre>
+<h3 id="setting-a-variable">Setting a Variable</h3>
+<p>If a variable has already been declared, it can be set with the equals sign:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> team = <span class="hljs-string">&quot;Seattle SuperSonics&quot;</span>;
+
+team = <span class="hljs-string">&quot;Oklahoma City Thunder&quot;</span>;
+</code></pre>
+<p>The <strong>value</strong> of the variable changes, but the <strong>name</strong> stays the same.</p>
+<h2 id="basic-data-types">Basic Data Types</h2>
+<p>There are a ton of different types of data available on the web. Two of the most basic types of data are <strong>string</strong>s and <strong>numbers</strong>.</p>
+<h3 id="strings">Strings</h3>
+<p>In JavaScript, <a href="https://www.w3schools.com/js/js_strings.asp" target="_blank">strings</a> are sequences of characters; essentially, blocks of text. Strings are surrounded by quotation marks. For example, here, the data type of the <code>team</code> variable would be <strong>string</strong>:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> team = <span class="hljs-string">&quot;Cleveland Cavaliers&quot;</span>;
+</code></pre>
+<p>Strings can be <em>concatenated</em> (added together) with the <code>+</code> operator:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> city = <span class="hljs-string">&quot;Cleveland&quot;</span>;
+<span class="hljs-keyword">let</span> team = <span class="hljs-string">&quot;Cavaliers&quot;</span>;
+
+alert(city + <span class="hljs-string">&quot; &quot;</span> + team);
+</code></pre>
+<p>This example would display a message of <strong>Cleveland Cavaliers</strong>.</p>
+<h3 id="numbers">Numbers</h3>
+<p>In JavaScript, <a href="https://www.w3schools.com/js/js_numbers.asp" target="_blank">numbers</a> are any numeric value, including integers, decimal numbers, and negative numbers. They are written just like numbers:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> wins = <span class="hljs-number">51</span>;
+</code></pre>
+<p>Basic arithmetic can be performed on numbers, like so:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> wins = <span class="hljs-number">51</span>;
+<span class="hljs-keyword">let</span> losses = <span class="hljs-number">31</span>;
+
+alert(wins + losses);
+</code></pre>
+<p>This example would print the total number of games played with <code>wins</code> and <code>losses</code> combined (<strong>82</strong>).</p>
+<h3 id="conversions">Conversions</h3>
+<p>Sometimes, it will be necessary to add numbers to strings. Be careful! Strange results can occur, like these:</p>
+<p><img src="../Assets/JsNumbersWeird.jpg" alt=""></p>
+<p>When working with a string that is meant to be a number, it is often a good idea to convert it to an actual number with <code>Number</code>, like so:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> myAge = <span class="hljs-string">&quot;20&quot;</span>;
+alert(myAge + <span class="hljs-number">1</span>); <span class="hljs-comment">// This would display 201</span>
+
+<span class="hljs-keyword">let</span> myAgeNum = <span class="hljs-built_in">Number</span>(myAge);
+alert(myAgeNum + <span class="hljs-number">1</span>); <span class="hljs-comment">// This would display 21</span>
+</code></pre>
+<h2 id="asking-questions-with-prompt">Asking Questions with <code>prompt</code></h2>
+<p>Websites can be much more interesting when they involve user input of some kind. It is possible to ask questions using <code>prompt</code>. For example, to ask <strong>What is your name?</strong>, the code would look like this:</p>
+<pre><code class="lang-js">prompt(<span class="hljs-string">&quot;What is your name?&quot;</span>);
+</code></pre>
+<p>And the pop-up works a lot like an <code>alert</code>:</p>
+<p><img src="../Assets/Prompt.png" alt=""></p>
+<h3 id="storing-the-result">Storing the Result</h3>
+<p>The most important part of <code>prompt</code> is to do something with the answer. Often, answers are stored in variables, like so:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> userName = prompt(<span class="hljs-string">&quot;What is your name?&quot;</span>);
+</code></pre>
+<p>When this code runs, the value of the <code>userName</code> variable will be whatever the user enters in the input box.</p>
+<h3 id="using-the-result">Using the Result</h3>
+<p>After the result has been stored, it can be used. Here is an example:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> userName = prompt(<span class="hljs-string">&quot;What is your name?&quot;</span>);
+alert(<span class="hljs-string">&quot;Hi, &quot;</span> + userName);
+</code></pre>
+<p>This code would say &quot;Hi&quot; to the user with their name.</p>
+<h2 id="further-reading">Further Reading</h2>
+<p><a href="FurtherReading.html">Click here for some additional articles diving deeper into these concepts.</a></p>
 
                                 
                                 </section>
@@ -585,12 +656,12 @@
 
             
                 
-                <a href="../Lesson10Objects/StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Lesson 10: Objects">
+                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Lesson 4: Variables & Data">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../Resources.html" class="navigation navigation-next " aria-label="Next page: Resources">
+                <a href="FurtherReading.html" class="navigation navigation-next " aria-label="Next page: Further Reading">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -601,7 +672,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Additional Topics","level":"1.12","depth":1,"next":{"title":"Resources","level":"1.13","depth":1,"path":"Resources.md","ref":"Resources.md","articles":[]},"previous":{"title":"Lesson 10: Objects","level":"1.11","depth":1,"path":"Lesson10Objects/StudentDesc.md","ref":"Lesson10Objects/StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"AdditionalTopics/StudentDesc.md","mtime":"2023-05-11T19:42:58.384Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-11T19:43:43.096Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Guide","level":"1.5.1","depth":2,"next":{"title":"Further Reading","level":"1.5.2","depth":2,"path":"Lesson04VariablesAndData/FurtherReading.md","ref":"Lesson04VariablesAndData/FurtherReading.md","articles":[]},"previous":{"title":"Lesson 4: Variables & Data","level":"1.5","depth":1,"path":"Lesson04VariablesAndData/StudentDesc.md","ref":"Lesson04VariablesAndData/StudentDesc.md","articles":[{"title":"Guide","level":"1.5.1","depth":2,"path":"Lesson04VariablesAndData/VariablesDataPromptGuide.md","ref":"Lesson04VariablesAndData/VariablesDataPromptGuide.md","articles":[]},{"title":"Further Reading","level":"1.5.2","depth":2,"path":"Lesson04VariablesAndData/FurtherReading.md","ref":"Lesson04VariablesAndData/FurtherReading.md","articles":[]},{"title":"Code-Along","level":"1.5.3","depth":2,"path":"Lesson04VariablesAndData/MadLibsCodeAlong.md","ref":"Lesson04VariablesAndData/MadLibsCodeAlong.md","articles":[]},{"title":"Challenges","level":"1.5.4","depth":2,"path":"Lesson04VariablesAndData/VariablesChallenges.md","ref":"Lesson04VariablesAndData/VariablesChallenges.md","articles":[{"title":"Existing Projects","level":"1.5.4.1","depth":3,"path":"Lesson04VariablesAndData/ExistingProjects.md","ref":"Lesson04VariablesAndData/ExistingProjects.md","articles":[]},{"title":"Questions Exercise","level":"1.5.4.2","depth":3,"path":"Lesson04VariablesAndData/QuestionsExercise.md","ref":"Lesson04VariablesAndData/QuestionsExercise.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson04VariablesAndData/VariablesDataPromptGuide.md","mtime":"2023-05-11T19:42:58.392Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-11T19:43:43.096Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

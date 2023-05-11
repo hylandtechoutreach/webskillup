@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Additional Topics · Web Skillup</title>
+        <title>Code-Along · Web Skillup</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../Resources.html" />
+    <link rel="next" href="VariablesChallenges.html" />
     
     
-    <link rel="prev" href="../Lesson10Objects/StudentDesc.html" />
+    <link rel="prev" href="FurtherReading.html" />
     
 
     </head>
@@ -294,9 +294,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../Lesson04VariablesAndData/StudentDesc.html">
+        <li class="chapter " data-level="1.5" data-path="StudentDesc.html">
             
-                <a href="../Lesson04VariablesAndData/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Lesson 4: Variables & Data
@@ -308,9 +308,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../Lesson04VariablesAndData/VariablesDataPromptGuide.html">
+        <li class="chapter " data-level="1.5.1" data-path="VariablesDataPromptGuide.html">
             
-                <a href="../Lesson04VariablesAndData/VariablesDataPromptGuide.html">
+                <a href="VariablesDataPromptGuide.html">
             
                     
                     Guide
@@ -321,9 +321,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../Lesson04VariablesAndData/FurtherReading.html">
+        <li class="chapter " data-level="1.5.2" data-path="FurtherReading.html">
             
-                <a href="../Lesson04VariablesAndData/FurtherReading.html">
+                <a href="FurtherReading.html">
             
                     
                     Further Reading
@@ -334,9 +334,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../Lesson04VariablesAndData/MadLibsCodeAlong.html">
+        <li class="chapter active" data-level="1.5.3" data-path="MadLibsCodeAlong.html">
             
-                <a href="../Lesson04VariablesAndData/MadLibsCodeAlong.html">
+                <a href="MadLibsCodeAlong.html">
             
                     
                     Code-Along
@@ -347,9 +347,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../Lesson04VariablesAndData/VariablesChallenges.html">
+        <li class="chapter " data-level="1.5.4" data-path="VariablesChallenges.html">
             
-                <a href="../Lesson04VariablesAndData/VariablesChallenges.html">
+                <a href="VariablesChallenges.html">
             
                     
                     Challenges
@@ -361,9 +361,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.4.1" data-path="../Lesson04VariablesAndData/ExistingProjects.html">
+        <li class="chapter " data-level="1.5.4.1" data-path="ExistingProjects.html">
             
-                <a href="../Lesson04VariablesAndData/ExistingProjects.html">
+                <a href="ExistingProjects.html">
             
                     
                     Existing Projects
@@ -374,9 +374,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4.2" data-path="../Lesson04VariablesAndData/QuestionsExercise.html">
+        <li class="chapter " data-level="1.5.4.2" data-path="QuestionsExercise.html">
             
-                <a href="../Lesson04VariablesAndData/QuestionsExercise.html">
+                <a href="QuestionsExercise.html">
             
                     
                     Questions Exercise
@@ -475,9 +475,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.12" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.12" data-path="../AdditionalTopics/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../AdditionalTopics/StudentDesc.html">
             
                     
                     Additional Topics
@@ -531,7 +531,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Additional Topics</a>
+        <a href=".." >Code-Along</a>
     </h1>
 </div>
 
@@ -546,18 +546,90 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="additional-topics">Additional Topics</h1>
-<p>Learn more about what JavaScript can do!</p>
-<p>Things like:</p>
+                                <h1 id="code-along-mad-libs">Code-Along: Mad Libs</h1>
+<p>Follow these instructions to build a simple <a href="https://en.wikipedia.org/wiki/Mad_Libs" target="_blank">Mad Libs</a> game using JavaScript.</p>
+<p>Begin by creating a fork of <a href="https://replit.com/@HylandOutreach/JavaScriptStarter" target="_blank">this starter Repl project</a>.</p>
+<h2 id="the-story-biography-of-lebron-james">The Story: Biography of LeBron James</h2>
+<p>The original story is as follows:</p>
+<blockquote>
+<p>LeBron James is an American professional basketball player. He is widely considered one of the greatest players of all time. In 2020, he won a championship with the Los Angeles Lakers.</p>
+</blockquote>
+<p>To make this into a Mad Libs story, some words will have to be replaced! Here is the story again, with a list of replacements, with each part of speech within <code>[</code> and <code>]</code>:</p>
+<pre><code>LeBron James is an American [adjective] basketball player.
+He is widely considered one of the greatest [plural  noun] of all time.
+In 2020, he won a championship with the [city] Lakers.
+</code></pre><p>The goal is to create a program that will ask the user for each of those replacements! In all, the user should be prompted for these words:</p>
 <ul>
-<li><code>try</code>/<code>catch</code></li>
-<li>Classes</li>
-<li>Web Components</li>
-<li>TypeScript</li>
-<li>Modules</li>
-<li>Libraries</li>
-<li>Resources</li>
+<li>Adjective</li>
+<li>Plural Noun</li>
+<li>City</li>
 </ul>
+<h2 id="part-1-asking-for-the-words">Part 1: Asking for the Words</h2>
+<p>Start by asking the user for each word they will need to replace.</p>
+<ol>
+<li>Open the <strong>script.js</strong> file for editing</li>
+<li>At the top of the file, add an <code>alert</code> statement welcoming the user to the page<ul>
+<li>It should say &quot;Welcome to the Mad Libs game.&quot;</li>
+</ul>
+</li>
+<li>Under that, create a new variable named <code>adjective</code></li>
+<li>Set the value of the <code>adjective</code> variable to a <code>prompt</code>, with the message <code>&quot;Enter an adjective&quot;</code></li>
+<li>Under that, create a new variable named <code>pluralNoun</code></li>
+<li>Set the value of the <code>pluralNoun</code> variable to a <code>prompt</code>, with the message <code>&quot;Enter a plural noun&quot;</code></li>
+<li>Under that, create a new variable named <code>city</code></li>
+<li>Set the value of the <code>person</code> variable to a <code>prompt</code>, with the message <code>&quot;Enter a city&quot;</code></li>
+</ol>
+<p>Try running the code at this point, and make sure it successfully prompts the user for these four words!</p>
+<p>The code so far should look something like this:</p>
+<pre><code class="lang-js">alert(<span class="hljs-string">&quot;Welcome to the Mad Libs game.&quot;</span>);
+
+<span class="hljs-keyword">let</span> adjective = prompt(<span class="hljs-string">&quot;Enter an adjective&quot;</span>);
+<span class="hljs-keyword">let</span> pluralNoun = prompt(<span class="hljs-string">&quot;Enter a plural noun&quot;</span>);
+<span class="hljs-keyword">let</span> city = prompt(<span class="hljs-string">&quot;Enter a city&quot;</span>);
+</code></pre>
+<h2 id="part-2-building-the-new-sentences">Part 2: Building the New Sentences</h2>
+<p>Next, it&apos;s time to write out the new sentences with the words replaced.</p>
+<ol>
+<li>Under the existing code, create a new variable named <code>sentence1</code></li>
+<li>Set <code>sentence1</code> to be the first sentence up until the new word<ul>
+<li>&quot;LeBron James is an American &quot;</li>
+</ul>
+</li>
+<li>After that, use <code>+</code> to concatenate the <code>adjective</code> variable</li>
+<li>Finally, finish out the sentence with another <code>+</code></li>
+</ol>
+<p>The code for the first sentence should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> sentence1 = <span class="hljs-string">&quot;LeBron James is an American &quot;</span> + adjective + <span class="hljs-string">&quot; basketball player. &quot;</span>;
+</code></pre>
+<p>Repeat the steps for the next two sentences. In total, there should be three new variables:</p>
+<ul>
+<li><code>sentence1</code></li>
+<li><code>sentence2</code></li>
+<li><code>sentence3</code></li>
+</ul>
+<h2 id="part-3-displaying-the-new-story">Part 3: Displaying the New Story</h2>
+<p>Now, all that&apos;s left is to add them all together and display them. Use an <code>alert</code> statement, and use <code>+</code> to combine all three sentences. The code should look something like this:</p>
+<pre><code class="lang-js">alert(sentence1 + sentence2 + sentence3);
+</code></pre>
+<p>Try running the code again. The program should ask for some words, and then display the modified story with each entered word replacing one from the original story!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This activity may seem quite trivial, but working with text data in this way can be quite a valuable skill.</p>
+<h3 id="final-code">Final Code</h3>
+<p>The code in the <strong>script.js</strong> file should look something like this:</p>
+<pre><code class="lang-js">alert(<span class="hljs-string">&quot;Welcome to the Mad Libs game.&quot;</span>);
+
+<span class="hljs-keyword">let</span> adjective = prompt(<span class="hljs-string">&quot;Enter an adjective&quot;</span>);
+<span class="hljs-keyword">let</span> pluralNoun = prompt(<span class="hljs-string">&quot;Enter a plural noun&quot;</span>);
+<span class="hljs-keyword">let</span> city = prompt(<span class="hljs-string">&quot;Enter a city&quot;</span>);
+
+<span class="hljs-keyword">let</span> sentence1 = <span class="hljs-string">&quot;LeBron James is an American &quot;</span> + adjective + <span class="hljs-string">&quot; basketball player. &quot;</span>;
+<span class="hljs-keyword">let</span> sentence2 = <span class="hljs-string">&quot;He is widely considered one of the greatest &quot;</span> + pluralNoun + <span class="hljs-string">&quot; of all time. &quot;</span>;
+<span class="hljs-keyword">let</span> sentence3 = <span class="hljs-string">&quot;In 2020, he won a championship with the &quot;</span> + city + <span class="hljs-string">&quot; Lakers.&quot;</span>;
+
+alert(sentence1 + sentence2 + sentence3);
+</code></pre>
+<h3 id="next-steps">Next Steps</h3>
+<p>After completing the code-along, <a href="VariablesChallenges.html">click here to check out the challenges</a>.</p>
 
                                 
                                 </section>
@@ -585,12 +657,12 @@
 
             
                 
-                <a href="../Lesson10Objects/StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Lesson 10: Objects">
+                <a href="FurtherReading.html" class="navigation navigation-prev " aria-label="Previous page: Further Reading">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../Resources.html" class="navigation navigation-next " aria-label="Next page: Resources">
+                <a href="VariablesChallenges.html" class="navigation navigation-next " aria-label="Next page: Challenges">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -601,7 +673,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Additional Topics","level":"1.12","depth":1,"next":{"title":"Resources","level":"1.13","depth":1,"path":"Resources.md","ref":"Resources.md","articles":[]},"previous":{"title":"Lesson 10: Objects","level":"1.11","depth":1,"path":"Lesson10Objects/StudentDesc.md","ref":"Lesson10Objects/StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"AdditionalTopics/StudentDesc.md","mtime":"2023-05-11T19:42:58.384Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-11T19:43:43.096Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Code-Along","level":"1.5.3","depth":2,"next":{"title":"Challenges","level":"1.5.4","depth":2,"path":"Lesson04VariablesAndData/VariablesChallenges.md","ref":"Lesson04VariablesAndData/VariablesChallenges.md","articles":[{"title":"Existing Projects","level":"1.5.4.1","depth":3,"path":"Lesson04VariablesAndData/ExistingProjects.md","ref":"Lesson04VariablesAndData/ExistingProjects.md","articles":[]},{"title":"Questions Exercise","level":"1.5.4.2","depth":3,"path":"Lesson04VariablesAndData/QuestionsExercise.md","ref":"Lesson04VariablesAndData/QuestionsExercise.md","articles":[]}]},"previous":{"title":"Further Reading","level":"1.5.2","depth":2,"path":"Lesson04VariablesAndData/FurtherReading.md","ref":"Lesson04VariablesAndData/FurtherReading.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson04VariablesAndData/MadLibsCodeAlong.md","mtime":"2023-05-11T19:42:58.392Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-11T19:43:43.096Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

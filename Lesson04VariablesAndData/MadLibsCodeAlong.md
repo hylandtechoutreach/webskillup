@@ -11,10 +11,9 @@ The original story is as follows:
 To make this into a Mad Libs story, some words will have to be replaced! Here is the story again, with a list of replacements, with each part of speech within `[` and `]`:
 
 ```
-LeBron James is an American [adjective] basketball
-player. He is widely considered one of the greatest
-[plural  noun] of all time. In 2020, he won a championship
-with the [city] Lakers.
+LeBron James is an American [adjective] basketball player.
+He is widely considered one of the greatest [plural  noun] of all time.
+In 2020, he won a championship with the [city] Lakers.
 ```
 
 The goal is to create a program that will ask the user for each of those replacements! In all, the user should be prompted for these words:
