@@ -33,4 +33,6 @@
 - [Lesson 9: Arrays](Lesson09Arrays/StudentDesc.md)
 - [Lesson 10: Objects](Lesson10Objects/StudentDesc.md)
 - [Additional Topics](AdditionalTopics/StudentDesc.md)
+- [Additional Challenges](AdditionalChallenges/StudentDesc.md)
+  - [Funk Playlist](AdditionalChallenges/FunkPlaylistChallenge.md)
 - [Resources](Resources.md)
