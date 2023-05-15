@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Lesson 5: Buttons & Functions · Web Skillup</title>
+        <title>Calculator · Web Skillup</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="QuoteboardCodeAlong.html" />
+    <link rel="next" href="FunctionsChallenges.html" />
     
     
-    <link rel="prev" href="../Lesson04VariablesAndData/QuestionsExercise.html" />
+    <link rel="prev" href="BackgroundImagesGuidedActivity.html" />
     
 
     </head>
@@ -397,7 +397,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.6" data-path="StudentDesc.html">
             
                 <a href="StudentDesc.html">
             
@@ -464,7 +464,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2.3" data-path="CalculatorGuidedActivity.html">
+        <li class="chapter active" data-level="1.6.2.3" data-path="CalculatorGuidedActivity.html">
             
                 <a href="CalculatorGuidedActivity.html">
             
@@ -653,7 +653,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Lesson 5: Buttons & Functions</a>
+        <a href=".." >Calculator</a>
     </h1>
 </div>
 
@@ -668,20 +668,172 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="lesson-5-buttons--functions">Lesson 5: Buttons &amp; Functions</h1>
-<p>Learn how to execute code on demand with buttons and functions.</p>
-<h2 id="&#x1F7E2;-basic-introduction-to-functions">&#x1F7E2; Basic: Introduction to Functions</h2>
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechoutreach.github.io/webskillup/Lesson05ButtonsAndFunctions/IntroductionToFunctions.pptx" width="100%" height="450px" frameborder="0"></iframe>
+                                <h1 id="guided-activity-calculator">Guided Activity: Calculator</h1>
+<p>In this activity, build a simple website that can perform basic arithmetic operations.</p>
+<h3 id="important-note">IMPORTANT NOTE</h3>
+<p>This guide involves some very contrived examples. In reality, it would be easier to create the same functionality without all the extra functional work. However, the purpose of this activity is to practice using functions, so it may be helpful to suspend your disbelief a bit, and pretend there is no simpler way to accomplish this calculator application &#x1F607;</p>
+<h2 id="setting-up">Setting Up</h2>
+<p><a href="https://replit.com/@HylandOutreach/CalculatorStart" target="_blank"><strong>Click here to view the starter project.</strong></a> Fork the project to begin.</p>
+<h3 id="the-starter-code-html">The Starter Code: HTML</h3>
+<p>The <strong>index.html</strong> file is fairly simple; there is a header, and a &quot;Sum&quot; button that calls a function named <code>sum</code> when it is clicked.</p>
+<h3 id="the-starter-code-javascript">The Starter Code: JavaScript</h3>
+<p>The <strong>script.js</strong> file has two functions:</p>
+<ul>
+<li>The <code>plus</code> function takes in two numeric parameters, and returns the two numbers added together.</li>
+<li>The <code>sum</code> function prompts the user for two values, converts them to numbers, calls the <code>plus</code> function on them, and displays the result.</li>
+</ul>
+<h3 id="the-goal-more">The Goal: More</h3>
+<p>The goal will be to add more functionality to the calculator!</p>
+<h2 id="adding-a-difference-button">Adding a Difference Button</h2>
+<p>First, add the ability to subtract one number from another.</p>
+<h3 id="html-button">HTML Button</h3>
+<p>Start by adding another <code>&lt;button&gt;</code> element in the <strong>index.html</strong> file. It should call a function named <code>difference</code> when it is clicked, and &quot;Difference&quot; should be the text on the button.</p>
+<h3 id="javascript-function">JavaScript Function</h3>
+<p>Now the <code>difference</code> function is called, but it has yet to be defined! The next step is to define the <code>difference</code> function.</p>
+<ol>
+<li>Open the <strong>script.js</strong> file for editing, and make a new line at the bottom</li>
+<li>There, define a function named <code>difference</code><ul>
+<li>It should take no parameters</li>
+</ul>
+</li>
+<li>In the body of the <code>difference</code> function, ask the user for two numbers<ul>
+<li>Use <code>prompt</code> and <code>Number</code></li>
+<li>This will be identical to the <code>sum</code> function</li>
+</ul>
+</li>
+<li>Under that, calculate the difference of the two numbers using the <code>plus</code> function<ul>
+<li>Add the A number to the opposite of the B number</li>
+</ul>
+</li>
+<li>Display the answer with an <code>alert</code></li>
+</ol>
+<p>Run the project, click the &quot;Difference&quot; button, and verify that it works properly!</p>
+<h2 id="refactoring-the-prompts">Refactoring the Prompts</h2>
+<p>Now, it would be possible to continue adding functionality in this fashion, but... there&apos;s a bit of repeated code that could become quite tedious. This code can be <a href="https://en.wikipedia.org/wiki/Code_refactoring" target="_blank">refactored</a> so that it works the same, but is easier to maintain and scale. The logic can be encapsulated into a helper function!</p>
+<h3 id="the-repeated-code">The Repeated Code</h3>
+<p>The code in question is the couple of <code>prompt</code> statements that retrieve the numbers from the user:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> aString = prompt(<span class="hljs-string">&quot;Number A:&quot;</span>);
+<span class="hljs-keyword">let</span> aNum = <span class="hljs-built_in">Number</span>(aString);
 
-<h3 id="code-along-quoteboard">Code-Along: Quoteboard</h3>
-<p><a href="QuoteboardCodeAlong.html">Click here for the basic code-along instructions.</a></p>
-<h3 id="guided-activities">Guided Activities</h3>
-<p><a href="FunctionsGuidedActivities.html">Click here for additional guided activities.</a></p>
-<h2 id="&#x1F537;-advanced-functions-as-objects">&#x1F537; Advanced: Functions as Objects</h2>
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechoutreach.github.io/webskillup/Lesson05ButtonsAndFunctions/FunctionsAsObjects.pptx" width="100%" height="450px" frameborder="0"></iframe>
+<span class="hljs-keyword">let</span> bString = prompt(<span class="hljs-string">&quot;Number B:&quot;</span>);
+<span class="hljs-keyword">let</span> bNum = <span class="hljs-built_in">Number</span>(bString);
+</code></pre>
+<p>Instead of this, there could be a new function that automatically converts a prompt response into a number!</p>
+<h3 id="defining-the-new-function">Defining the New Function</h3>
+<p>At the top of the <strong>script.js</strong> file, just under the <code>plus</code> function definition, make a new line. There, define a new function named <code>numPrompt</code>.</p>
+<ul>
+<li>It should take one parameter: a message for the <code>prompt</code> call</li>
+<li>In the body, it should call <code>prompt</code> with the parameter value<ul>
+<li>The response should be stored in a variable</li>
+</ul>
+</li>
+<li>It should then use <code>Number</code> on the result of the <code>prompt</code>, and <code>return</code> that value</li>
+</ul>
+<h3 id="calling-the-numprompt-function">Calling the <code>numPrompt</code> Function</h3>
+<p>Now, the <code>numPrompt</code> function can replace anywhere that <code>prompt</code> and <code>Number</code> are used in sequence. Replace each of these instances. At this point, there should be a total of <strong>four</strong> calls to the <code>numPrompt</code> function (two in the <code>sum</code> function and two in the <code>difference</code> function).</p>
+<h3 id="testing">Testing</h3>
+<p>The interesting thing about refactoring is that the functionality of the code should remain exactly the same. This can be a little less rewarding than creating a spiffy new feature, but it can be a huge help down the line.</p>
+<p>Test out the buttons again, and verify that they work exactly the same as they did before the refactoring!</p>
+<h2 id="adding-a-product-button">Adding a Product Button</h2>
+<p>With the code updated, it is time to add a button for multiplication. This will require two new functions.</p>
+<h3 id="the-times-function">The <code>times</code> Function</h3>
+<p>First, right under the <code>plus</code> function in the <strong>script.js</strong> file, make a new line. There, define a function named <code>times</code>.</p>
+<ul>
+<li>It should take two parameters: <code>a</code> and <code>b</code></li>
+<li>It should <code>return</code> the product of those two parameter values</li>
+</ul>
+<h3 id="the-product-function">The <code>product</code> Function</h3>
+<p>Next, define the function that will <em>use</em> the <code>times</code> function. At the bottom of the <strong>script.js</strong> file, define a new function named <code>product</code>.</p>
+<ul>
+<li>It should take no parameters</li>
+<li>In the body, it should get an <code>aNum</code> and a <code>bNum</code> using the <code>numPrompt</code> function</li>
+<li>Under that, it should call the <code>times</code> function to get the product of <code>aNum</code> and <code>bNum</code></li>
+<li>Finally, it should display the result with an <code>alert</code></li>
+</ul>
+<h3 id="the-button">The Button</h3>
+<p>All that is left is to actually create a button to call the function. In the <strong>index.html</strong> file, create another new <code>&lt;button&gt;</code> element that says &quot;Product&quot; and calls the <code>product</code> function when clicked.</p>
+<h2 id="adding-a-quotient-button">Adding a Quotient Button</h2>
+<p>There is one more basic arithmetic operation that the calculator should handle: division.</p>
+<ul>
+<li>Create the <code>&lt;button&gt;</code> element in the <strong>index.html</strong> file</li>
+<li>Define a function named <code>quotient</code> in the <strong>script.js</strong> file</li>
+<li>In the <code>quotient</code> function, use the <code>times</code> function to calculate the quotient of two numbers</li>
+</ul>
+<p>That should be it for the basic calculations!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This activity may have seemed a bit trivial, but hopefully it showed some basic applications of functions beyond handling button clicks.</p>
+<h3 id="final-html">Final HTML</h3>
+<p>By the end, the code in the <strong>index.html</strong> file should look something like this:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;script.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;style.css&quot;</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;container&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Calculator<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;sum()&quot;</span>&gt;</span>Sum<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;difference()&quot;</span>&gt;</span>Difference<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;product()&quot;</span>&gt;</span>Product<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">&quot;quotient()&quot;</span>&gt;</span>Quotient<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<h3 id="final-javascript">Final JavaScript</h3>
+<p>By the end, the code in the <strong>script.js</strong> file should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">plus</span>(<span class="hljs-params">a, b</span>) </span>{
+  <span class="hljs-keyword">return</span> a + b;
+}
 
-<h3 id="challenges">Challenges</h3>
-<p><a href="FunctionsChallenges.html">Click here for some challenges related to functions.</a></p>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">times</span>(<span class="hljs-params">a, b</span>) </span>{
+  <span class="hljs-keyword">return</span> a * b;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">numPrompt</span>(<span class="hljs-params">message</span>) </span>{
+  <span class="hljs-keyword">let</span> answer = prompt(message);
+  <span class="hljs-keyword">return</span> <span class="hljs-built_in">Number</span>(answer);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sum</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">let</span> aNum = numPrompt(<span class="hljs-string">&quot;Number A:&quot;</span>);
+  <span class="hljs-keyword">let</span> bNum = numPrompt(<span class="hljs-string">&quot;Number B:&quot;</span>);
+
+  <span class="hljs-keyword">let</span> result = plus(aNum, bNum);
+  alert(<span class="hljs-string">&quot;The answer is: &quot;</span> + result);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">difference</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">let</span> aNum = numPrompt(<span class="hljs-string">&quot;Number A:&quot;</span>);
+  <span class="hljs-keyword">let</span> bNum = numPrompt(<span class="hljs-string">&quot;Number B:&quot;</span>);
+
+  <span class="hljs-keyword">let</span> result = plus(aNum, <span class="hljs-number">-1</span> * bNum);
+  alert(<span class="hljs-string">&quot;The answer is: &quot;</span> + result);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">product</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">let</span> aNum = numPrompt(<span class="hljs-string">&quot;Number A:&quot;</span>);
+  <span class="hljs-keyword">let</span> bNum = numPrompt(<span class="hljs-string">&quot;Number B:&quot;</span>);
+
+  <span class="hljs-keyword">let</span> result = times(aNum, bNum);
+  alert(<span class="hljs-string">&quot;The answer is: &quot;</span> + result);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">quotient</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">let</span> aNum = numPrompt(<span class="hljs-string">&quot;Number A:&quot;</span>);
+  <span class="hljs-keyword">let</span> bNum = numPrompt(<span class="hljs-string">&quot;Number B:&quot;</span>);
+
+  <span class="hljs-keyword">let</span> result = times(aNum, <span class="hljs-number">1</span> / bNum);
+  alert(<span class="hljs-string">&quot;The answer is: &quot;</span> + result);
+}
+</code></pre>
+<h3 id="next-steps">Next Steps</h3>
+<p>To continue building out the calculator, try to add some additional calculations:</p>
+<ul>
+<li>Perimeter of a Rectangle</li>
+<li>Area of a Triangle</li>
+<li><a href="https://en.wikipedia.org/wiki/Quadratic_formula" target="_blank">Quadratic Formula</a></li>
+</ul>
 
                                 
                                 </section>
@@ -709,12 +861,12 @@
 
             
                 
-                <a href="../Lesson04VariablesAndData/QuestionsExercise.html" class="navigation navigation-prev " aria-label="Previous page: Questions Exercise">
+                <a href="BackgroundImagesGuidedActivity.html" class="navigation navigation-prev " aria-label="Previous page: Background Images">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="QuoteboardCodeAlong.html" class="navigation navigation-next " aria-label="Next page: Code-Along">
+                <a href="FunctionsChallenges.html" class="navigation navigation-next " aria-label="Next page: Challenges">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -725,7 +877,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Lesson 5: Buttons & Functions","level":"1.6","depth":1,"next":{"title":"Code-Along","level":"1.6.1","depth":2,"path":"Lesson05ButtonsAndFunctions/QuoteboardCodeAlong.md","ref":"Lesson05ButtonsAndFunctions/QuoteboardCodeAlong.md","articles":[]},"previous":{"title":"Questions Exercise","level":"1.5.4.2","depth":3,"path":"Lesson04VariablesAndData/QuestionsExercise.md","ref":"Lesson04VariablesAndData/QuestionsExercise.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson05ButtonsAndFunctions/StudentDesc.md","mtime":"2023-05-15T20:59:27.025Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-15T20:59:58.806Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Calculator","level":"1.6.2.3","depth":3,"next":{"title":"Challenges","level":"1.6.3","depth":2,"path":"Lesson05ButtonsAndFunctions/FunctionsChallenges.md","ref":"Lesson05ButtonsAndFunctions/FunctionsChallenges.md","articles":[{"title":"Function Tests","level":"1.6.3.1","depth":3,"path":"Lesson05ButtonsAndFunctions/FunctionTests.md","ref":"Lesson05ButtonsAndFunctions/FunctionTests.md","articles":[]},{"title":"Event Handling","level":"1.6.3.2","depth":3,"path":"Lesson05ButtonsAndFunctions/EventHandling.md","ref":"Lesson05ButtonsAndFunctions/EventHandling.md","articles":[]}]},"previous":{"title":"Background Images","level":"1.6.2.2","depth":3,"path":"Lesson05ButtonsAndFunctions/BackgroundImagesGuidedActivity.md","ref":"Lesson05ButtonsAndFunctions/BackgroundImagesGuidedActivity.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson05ButtonsAndFunctions/CalculatorGuidedActivity.md","mtime":"2023-05-15T20:59:27.017Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-15T20:59:58.806Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
