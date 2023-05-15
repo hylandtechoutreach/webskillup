@@ -75,7 +75,7 @@ Run the project, click on the "Technological Terror" button, and ensure that the
 Follow the same steps as above to add more buttons! See below for a list of quotes, each with accompanying button text and function name.
 
 | Button Text | Function Name | Quote |
-|-|-|
+|-|-|-|
 | Faith | `faith` | I find your lack of faith disturbing. |
 | Presence | `presence` | I sense something. A presence I have not felt since... |
 
