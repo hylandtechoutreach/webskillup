@@ -1,5 +1,5 @@
 # Self-Paced Work: Conditional Debugging
-One of the most important parts of programming is [debugging](https://en.wikipedia.org/wiki/Debugging) - the process of finding and fixing errors in code. In this activity, practice debugging an existing program.
+One of the most important parts of programming is [debugging](https://en.wikipedia.org/wiki/Debugging) - the process of finding and fixing errors in code. In this activity, practice debugging an existing program. You may not be familiar with these structures yet, but see if you can figure out how to work with them!
 
 [**Click here to view the starter Repl project.**](https://replit.com/@HylandOutreach/ConditionalDebugging) Fork the project to begin.
 
