@@ -5,7 +5,7 @@ This lesson covers conditional statements and boolean values.
 By the end of this lesson, participants will be able to:
 
 - Create `if` statements
-- Utilized `else` clauses
+- Utilize `else` clauses
 - Understand the boolean data type
 
 ## Introduction: Video
