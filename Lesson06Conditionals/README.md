@@ -24,7 +24,7 @@ Walk through the [code-along instructions](ChatbotCodeAlong.md) with the partici
 Give participants time to work on some of the self-paced work, including the [advanced reading](ConditionalReading.md), [logic operators guide](LogicOperators.md), and [challenges](ConditionalChallenges.md).
 
 ## Formative Assessment
-End the lesson with a formative assessment of some kind.
+Have the students complete the [formative assessment](https://forms.gle/T4bv9UvzrxzsAtCo7). Responses available [here](https://docs.google.com/spreadsheets/d/1WPqpmIyStxJofrF4M9LnO5-jSFoC6g6dUl7-QKhDnBs/edit?usp=sharing).
 
 ## Agenda
 

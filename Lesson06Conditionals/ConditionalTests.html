@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Code-Along · Web Skillup</title>
+        <title>Conditional Tests · Web Skillup</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../Lesson04VariablesAndData/StudentDesc.html" />
+    <link rel="next" href="LogicOperators.html" />
     
     
-    <link rel="prev" href="StudentDesc.html" />
+    <link rel="prev" href="ConditionalChallenges.html" />
     
 
     </head>
@@ -262,9 +262,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.4" data-path="../Lesson03HelloJs/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../Lesson03HelloJs/StudentDesc.html">
             
                     
                     Lesson 3: Hello JavaScript!
@@ -276,9 +276,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="AboutMeAlertCodeAlong.html">
+        <li class="chapter " data-level="1.4.1" data-path="../Lesson03HelloJs/AboutMeAlertCodeAlong.html">
             
-                <a href="AboutMeAlertCodeAlong.html">
+                <a href="../Lesson03HelloJs/AboutMeAlertCodeAlong.html">
             
                     
                     Code-Along
@@ -532,9 +532,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../Lesson06Conditionals/StudentDesc.html">
+        <li class="chapter " data-level="1.7" data-path="StudentDesc.html">
             
-                <a href="../Lesson06Conditionals/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Lesson 6: Conditionals
@@ -546,9 +546,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.1" data-path="../Lesson06Conditionals/ConditionalDebugging.html">
+        <li class="chapter " data-level="1.7.1" data-path="ConditionalDebugging.html">
             
-                <a href="../Lesson06Conditionals/ConditionalDebugging.html">
+                <a href="ConditionalDebugging.html">
             
                     
                     Debugging Activity
@@ -559,9 +559,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.2" data-path="../Lesson06Conditionals/ChatbotCodeAlong.html">
+        <li class="chapter " data-level="1.7.2" data-path="ChatbotCodeAlong.html">
             
-                <a href="../Lesson06Conditionals/ChatbotCodeAlong.html">
+                <a href="ChatbotCodeAlong.html">
             
                     
                     Code-Along
@@ -572,9 +572,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.3" data-path="../Lesson06Conditionals/ConditionalReading.html">
+        <li class="chapter " data-level="1.7.3" data-path="ConditionalReading.html">
             
-                <a href="../Lesson06Conditionals/ConditionalReading.html">
+                <a href="ConditionalReading.html">
             
                     
                     Reading
@@ -585,9 +585,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.4" data-path="../Lesson06Conditionals/ConditionalChallenges.html">
+        <li class="chapter " data-level="1.7.4" data-path="ConditionalChallenges.html">
             
-                <a href="../Lesson06Conditionals/ConditionalChallenges.html">
+                <a href="ConditionalChallenges.html">
             
                     
                     Challenges
@@ -599,9 +599,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.4.1" data-path="../Lesson06Conditionals/ConditionalTests.html">
+        <li class="chapter active" data-level="1.7.4.1" data-path="ConditionalTests.html">
             
-                <a href="../Lesson06Conditionals/ConditionalTests.html">
+                <a href="ConditionalTests.html">
             
                     
                     Conditional Tests
@@ -617,9 +617,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.5" data-path="../Lesson06Conditionals/LogicOperators.html">
+        <li class="chapter " data-level="1.7.5" data-path="LogicOperators.html">
             
-                <a href="../Lesson06Conditionals/LogicOperators.html">
+                <a href="LogicOperators.html">
             
                     
                     Logic Operators
@@ -775,7 +775,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Code-Along</a>
+        <a href=".." >Conditional Tests</a>
     </h1>
 </div>
 
@@ -790,23 +790,146 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="code-along-about-me-alert">Code-Along: About Me Alert</h1>
-<p>In this activity, make your <a href="../Lesson02Css/AboutMeStylesCodeAlong.html">About Me</a> website display a pop-up when the user arrives.</p>
-<h2 id="make-a-new-file">Make a New File</h2>
-<p>To start, you must create a new JavaScript file. For this activity, name it <strong>script.js</strong>.</p>
-<h2 id="add-code-to-the-file">Add Code to the File</h2>
-<p>The next step is to add some code to the new file. Open it up for editing, and then add an <code>alert</code> statement that says whatever you&apos;d like. It should look something like this:</p>
-<pre><code class="lang-js">alert(<span class="hljs-string">&quot;hello world&quot;</span>);
+                                <h1 id="conditional-tests">Conditional Tests</h1>
+<p>For this challenge, there is a mocked-up version of a test harness, and it&apos;s up to you to make sure all the tests pass. <a href="https://replit.com/@HylandOutreach/ConditionalTests#script.js" target="_blank">Click here for the project.</a> Add code to the <strong>script.js</strong> file for each challenge.</p>
+<h2 id="challenge-1-which-number-is-greater">Challenge 1: Which Number is Greater?</h2>
+<p>Determine which of two numbers is larger.</p>
+<ul>
+<li>Function Name: <code>greaterNum</code></li>
+<li>Parameter 1: First Number (Number)</li>
+<li>Parameter 2: Second Number (Number)</li>
+<li>Return: The larger of the two numbers (Number)</li>
+</ul>
+<p>Examples:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> result = greaterNum(<span class="hljs-number">20</span>, <span class="hljs-number">21</span>);
+alert(result); <span class="hljs-comment">// Should display: 21</span>
+
+<span class="hljs-keyword">let</span> result2 = greaterNum(<span class="hljs-number">14</span>, <span class="hljs-number">9</span>);
+alert(result2); <span class="hljs-comment">// Should display: 14</span>
 </code></pre>
-<blockquote>
-<p><em>Side-note: <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" target="_blank">Hello World</a> is often the first program a developer writes in a new language!</em></p>
-</blockquote>
-<h2 id="include-the-file">Include the File</h2>
-<p>For the code to actually run, the file must be included. Open up the <strong>index.html</strong> file for editing, and add the <code>&lt;script&gt;</code> element to the bottom of the <code>&lt;body&gt;&lt;/body&gt;</code>. It should look something like this:</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;script.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<h2 id="challenge-2-global-greeting">Challenge 2: Global Greeting</h2>
+<p>Translate the &quot;Hello, World&quot; message depending on the given locale.</p>
+<ul>
+<li>Function Name: <code>helloWorld</code></li>
+<li>Parameter 1: Language Code (<code>&quot;fr&quot;</code>, <code>&quot;es&quot;</code>, <code>&quot;en&quot;</code>) (String)</li>
+<li>Return: The greeting in the given language, defaulting to English</li>
+</ul>
+<p>Examples:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> result = helloWorld(<span class="hljs-string">&quot;en&quot;</span>);
+alert(result); <span class="hljs-comment">// Should display: Hello, World</span>
+
+<span class="hljs-keyword">let</span> result2 = helloWorld(<span class="hljs-string">&quot;fr&quot;</span>);
+alert(result2); <span class="hljs-comment">// Should display: Bonjour tout le monde</span>
 </code></pre>
-<h2 id="conclusion">Conclusion</h2>
-<p>That&apos;s it, you are now a JavaScript developer! This activity was designed to be short and sweet, but it&apos;s just scratching the surface.</p>
+<h2 id="challenge-3-letter-grades">Challenge 3: Letter Grades</h2>
+<p>Given a numeric score, return the associated letter grade (A, B, C, etc).</p>
+<ul>
+<li>Function Name: <code>assignGrade</code></li>
+<li>Parameter 1: Score (Number)</li>
+<li>Return: The letter grade for the score</li>
+</ul>
+<p>Ranges:</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>90-100</td>
+<td>A</td>
+</tr>
+<tr>
+<td>80-89</td>
+<td>B</td>
+</tr>
+<tr>
+<td>70-79</td>
+<td>C</td>
+</tr>
+<tr>
+<td>65-69</td>
+<td>D</td>
+</tr>
+<tr>
+<td>0-4</td>
+<td>F</td>
+</tr>
+</tbody>
+</table>
+<p>Examples:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> result = assignGrade(<span class="hljs-number">42</span>);
+alert(result); <span class="hljs-comment">// Should display: F</span>
+
+<span class="hljs-keyword">let</span> result2 = assignGrade(<span class="hljs-number">99</span>);
+alert(result2); <span class="hljs-comment">// Should display: A</span>
+</code></pre>
+<h2 id="challenge-4-pluralizer">Challenge 4: Pluralizer</h2>
+<p>Given a noun and a count, properly pluralize it into a grammatically correct phrase.</p>
+<ul>
+<li>Function Name: <code>pluralize</code></li>
+<li>Parameter 1: Noun (String)</li>
+<li>Parameter 2: Count (Number)</li>
+<li>Return: The pluralized noun phrase</li>
+</ul>
+<p>Special Cases: sheep and geese</p>
+<p>Examples:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> result = pluralize(<span class="hljs-string">&quot;dog&quot;</span>, <span class="hljs-number">5</span>);
+alert(result); <span class="hljs-comment">// Should display: 5 dogs</span>
+
+<span class="hljs-keyword">let</span> result2 = pluralize(<span class="hljs-string">&quot;cat&quot;</span>, <span class="hljs-number">1</span>);
+alert(result2); <span class="hljs-comment">// Should display: 1 cat</span>
+
+<span class="hljs-keyword">let</span> result3 = pluralize(<span class="hljs-string">&quot;sheep&quot;</span>, <span class="hljs-number">99</span>);
+alert(result3); <span class="hljs-comment">// Should display: 99 sheep</span>
+
+<span class="hljs-keyword">let</span> result4 = pluralize(<span class="hljs-string">&quot;goose&quot;</span>, <span class="hljs-number">2</span>);
+alert(result4); <span class="hljs-comment">// Should display: 2 geese</span>
+</code></pre>
+<h2 id="challenge-5-two-questions">Challenge 5: Two Questions</h2>
+<p>Create a <em>very</em> simplified version of the Twenty Questions game, specific to cartoon animals.</p>
+<ul>
+<li>Function Name: <code>twoQuestions</code></li>
+<li>Parameter 1: Species (String)</li>
+<li>Parameter 2: Owner (String)</li>
+<li>Return: The proper cartoon animal based on the input</li>
+</ul>
+<p>The value should be determined based on this chart:</p>
+<table>
+  <tr>
+    <th></th>
+    <th>Dog</th>
+    <th>Bear</th>
+  </tr>
+  <tr>
+    <th>Disney</th>
+    <td>Pluto</td>
+    <td>Winnie the Pooh</td>
+  </tr>
+  <tr>
+    <th>Hanna Barbera</th>
+    <td>Scooby-Doo</td>
+    <td>Yogi Bear</td>
+  </tr>
+  <tr>
+    <th>Seth MacFarlane</th>
+    <td>Brian</td>
+    <td>Ted</td>
+  </tr>
+</table>
+
+<p>Examples:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> result = twoQuestions(<span class="hljs-string">&quot;dog&quot;</span>, <span class="hljs-string">&quot;Disney&quot;</span>);
+alert(result); <span class="hljs-comment">// Should display: Pluto</span>
+
+<span class="hljs-keyword">let</span> result2 = twoQuestions(<span class="hljs-string">&quot;bear&quot;</span>, <span class="hljs-string">&quot;Hanna Barbera&quot;</span>);
+alert(result2); <span class="hljs-comment">// Should display: Yogi Bear</span>
+
+<span class="hljs-keyword">let</span> result3 = twoQuestions(<span class="hljs-string">&quot;bear&quot;</span>, <span class="hljs-string">&quot;Disney&quot;</span>);
+alert(result3); <span class="hljs-comment">// Should display: Winnie the Pooh</span>
+</code></pre>
 
                                 
                                 </section>
@@ -834,12 +957,12 @@
 
             
                 
-                <a href="StudentDesc.html" class="navigation navigation-prev " aria-label="Previous page: Lesson 3: Hello JavaScript!">
+                <a href="ConditionalChallenges.html" class="navigation navigation-prev " aria-label="Previous page: Challenges">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../Lesson04VariablesAndData/StudentDesc.html" class="navigation navigation-next " aria-label="Next page: Lesson 4: Variables & Data">
+                <a href="LogicOperators.html" class="navigation navigation-next " aria-label="Next page: Logic Operators">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -850,7 +973,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Code-Along","level":"1.4.1","depth":2,"next":{"title":"Lesson 4: Variables & Data","level":"1.5","depth":1,"path":"Lesson04VariablesAndData/StudentDesc.md","ref":"Lesson04VariablesAndData/StudentDesc.md","articles":[{"title":"Guide","level":"1.5.1","depth":2,"path":"Lesson04VariablesAndData/VariablesDataPromptGuide.md","ref":"Lesson04VariablesAndData/VariablesDataPromptGuide.md","articles":[]},{"title":"Further Reading","level":"1.5.2","depth":2,"path":"Lesson04VariablesAndData/FurtherReading.md","ref":"Lesson04VariablesAndData/FurtherReading.md","articles":[]},{"title":"Code-Along","level":"1.5.3","depth":2,"path":"Lesson04VariablesAndData/MadLibsCodeAlong.md","ref":"Lesson04VariablesAndData/MadLibsCodeAlong.md","articles":[]},{"title":"Challenges","level":"1.5.4","depth":2,"path":"Lesson04VariablesAndData/VariablesChallenges.md","ref":"Lesson04VariablesAndData/VariablesChallenges.md","articles":[{"title":"Existing Projects","level":"1.5.4.1","depth":3,"path":"Lesson04VariablesAndData/ExistingProjects.md","ref":"Lesson04VariablesAndData/ExistingProjects.md","articles":[]},{"title":"Questions Exercise","level":"1.5.4.2","depth":3,"path":"Lesson04VariablesAndData/QuestionsExercise.md","ref":"Lesson04VariablesAndData/QuestionsExercise.md","articles":[]}]}]},"previous":{"title":"Lesson 3: Hello JavaScript!","level":"1.4","depth":1,"path":"Lesson03HelloJs/StudentDesc.md","ref":"Lesson03HelloJs/StudentDesc.md","articles":[{"title":"Code-Along","level":"1.4.1","depth":2,"path":"Lesson03HelloJs/AboutMeAlertCodeAlong.md","ref":"Lesson03HelloJs/AboutMeAlertCodeAlong.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson03HelloJs/AboutMeAlertCodeAlong.md","mtime":"2023-05-17T17:08:55.881Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-17T17:09:42.173Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Conditional Tests","level":"1.7.4.1","depth":3,"next":{"title":"Logic Operators","level":"1.7.5","depth":2,"path":"Lesson06Conditionals/LogicOperators.md","ref":"Lesson06Conditionals/LogicOperators.md","articles":[]},"previous":{"title":"Challenges","level":"1.7.4","depth":2,"path":"Lesson06Conditionals/ConditionalChallenges.md","ref":"Lesson06Conditionals/ConditionalChallenges.md","articles":[{"title":"Conditional Tests","level":"1.7.4.1","depth":3,"path":"Lesson06Conditionals/ConditionalTests.md","ref":"Lesson06Conditionals/ConditionalTests.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson06Conditionals/ConditionalTests.md","mtime":"2023-05-17T17:08:55.905Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-17T17:09:42.173Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

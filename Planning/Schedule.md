@@ -39,9 +39,10 @@ End the training on a strong note - the participants should feel inspired and em
 - 12-1pm | Lunch
 - 1-2pm | Variables & Data
 - 2-2:15pm | Break
-- 2:15-3:45pm | Functions
-- 3:45-4pm | Break
-- 4-5pm | Conditionals
+- 2:15-3:30pm | Functions
+- 3:30-3:45pm | Break
+- 3:45-4:45pm | Conditionals
+- 4:45-5pm | Monday Wrap-Up
 
 ### Tuesday
 - 9-10:45am | DOM Manipulation
