@@ -1,4 +1,5 @@
 # Lesson 7: DOM Manipulation
+This lesson introduces the concept of the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction), and shows how to manage input/output with HTML elements.
 
 ## Learning Objectives
 By the end of this lesson, participants will be able to:
@@ -32,16 +33,6 @@ Walk through the [instructions](ShoppingListCodeAlong.md) with the participants 
 
 ## Self-Paced Work: Challenges
 Allow the students to work on the [challenges](DomChallenges.md).
-
-### Inputs
-There is a lot more to do with HTML input elements.
-
-- https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types
-- https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_HTML5_controls
-- https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls
-- https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Other_controls
-- https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes
-- https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Advanced_styling
 
 ## Agenda
 
