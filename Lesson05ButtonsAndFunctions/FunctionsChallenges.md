@@ -52,3 +52,6 @@ For a more robust introduction to functions, read through some [JAVASCRIPT.INFO]
 
 ## Event Handling
 [Click here to access the Event Handling challenges.](EventHandling.md)
+
+## Scheduling
+Read through [this guide](https://javascript.info/settimeout-setinterval), and complete the tasks at the bottom.
