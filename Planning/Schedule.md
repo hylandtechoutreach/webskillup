@@ -19,19 +19,7 @@ It will be important to set the tone for the training before jumping into the ma
 - Icebreaker Game
 
 ## Material
-
-
-## Conclusion
-End the training on a strong note - the participants should feel inspired and empowered to continue learning! Important things to cover:
-
-- End-of-Program Survey
-- Game or Blooket
-- Resources
-- Reaching Us
-- Some form of assessment
-
-
-## Timing
+All the real stuff
 
 ### Monday
 - 10-10:30am | Preface
@@ -45,7 +33,8 @@ End the training on a strong note - the participants should feel inspired and em
 - 4:45-5pm | Monday Wrap-Up
 
 ### Tuesday
-- 9-10:45am | DOM Manipulation
+- 9-9:15am | Tuesday Welcome
+- 9:15-10:45am | DOM Manipulation
 - 10:45-11am | Break
 - 11am-12pm | Arrays
 - 12-1pm | Lunch
@@ -53,3 +42,12 @@ End the training on a strong note - the participants should feel inspired and em
 - 2:15-2:30pm | Break
 - 2:45-4pm | Objects
 - 4-5pm | Conclusion
+
+## Conclusion
+End the training on a strong note - the participants should feel inspired and empowered to continue learning! Important things to cover:
+
+- End-of-Program Survey
+- Game or Blooket
+- Resources
+- Reaching Us
+- Some form of assessment (or just the blooket)
