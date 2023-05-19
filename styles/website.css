@@ -27,3 +27,14 @@ h2 {
 .reveal-checkbox:checked + .reveal-label {
   display: none;
 }
+
+.box {
+  border: 2px dotted black;
+  padding: 0 40px 20px;
+  margin-bottom: 40px;
+  background: aliceblue;
+}
+
+.box h3 {
+  margin-bottom: 0px;
+}

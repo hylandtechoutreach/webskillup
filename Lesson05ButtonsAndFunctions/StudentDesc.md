@@ -7,11 +7,11 @@ Learn how to execute code on demand with buttons and functions.
 ### Code-Along: Quoteboard
 [Click here for the basic code-along instructions.](QuoteboardCodeAlong.md)
 
-### Guided Activities
+### Self-Paced Work: Guided Activities
 [Click here for additional guided activities.](FunctionsGuidedActivities.md)
 
 ## 🔷 Advanced: Functions as Objects
 <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechoutreach.github.io/webskillup/Lesson05ButtonsAndFunctions/FunctionsAsObjects.pptx' width='100%' height='450px' frameborder='0'></iframe>
 
-### Challenges
+### Self-Paced Work: Challenges
 [Click here for some challenges related to functions.](FunctionsChallenges.md)

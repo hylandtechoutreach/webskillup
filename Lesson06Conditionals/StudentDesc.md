@@ -15,7 +15,7 @@ Learn how to dictate program flow with conditional statements.
 ## 🔷 Advanced: In-Depth Reading
 [Click here for some resources to read.](ConditionalReading.md)
 
-## Challenges
+## Self-Paced Work: Challenges
 [Click here for some challenges.](ConditionalChallenges.md)
 
 ### Conditional Tests

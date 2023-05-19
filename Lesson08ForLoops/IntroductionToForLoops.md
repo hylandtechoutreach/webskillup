@@ -1,5 +1,5 @@
 # For Loops: An Introduction
-Repetition is a beautiful thing. If you've ever listened to the music of Daft Punk, you might be familiar with their hit song ["Around the World"](https://www.youtube.com/watch?v=dwDns8x3Jb4). The song goes something like this:
+Repetition is a beautiful thing. If you've ever listened to the music of Daft Punk, you might be familiar with their hit song "[Around the World](https://www.youtube.com/watch?v=dwDns8x3Jb4)." The song goes something like this:
 
 ```
 Around the world, around the world
@@ -51,20 +51,22 @@ for (initialization; condition; increment) {
 
 It is similar to an `if` statement, but with _three_ expressions within the parentheses. Those three expressions are:
 
-1. **Initialization**
-1. **Condition**
-1. **Increment**
+1. Initialization
+1. Condition
+1. Increment
 
 They may go by different names according to different sources, but the important part is when and how they execute.
 
-### Initialization
-The **initialization** expression is always the _very first thing_ to execute for a `for` loop. It runs exactly once, to kick off the whole looping process.
+<div style="border: 1px dotted black; padding: 10px;">
+  <h3>Initialization</h3>
+  <p>The <b>initialization</b> expression is always the <i>very first thing</i> to execute for a <code>for</code> loop. It runs exactly once, to kick off the whole looping process.</p>
 
-### Condition
-The **condition** expression is evaluated _before each entry into the loop_. If the condition is `true`, the loop continues. If the condition is `false`, the loop ends.
+  <h3>Condition</h3>
+  <p>The <b>condition</b> expression is evaluated <i>before each entry into the loop</i>. If the condition is <code>true</code>, the loop continues. If the condition is <code>false</code>, the loop ends.</p>
 
-### Increment
-The **increment** expression runs _after each loop execution_.
+  <h3>Increment</h3>
+  <p>The <b>increment</b> expression runs <i>after each loop execution</i>.</p>
+</div>
 
 In addition to these three expressions in the parentheses, there is the body.
 
