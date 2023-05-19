@@ -57,7 +57,7 @@ It is similar to an `if` statement, but with _three_ expressions within the pare
 
 They may go by different names according to different sources, but the important part is when and how they execute.
 
-<div style="border: 1px dotted black; padding: 10px;">
+<div class="box">
   <h3>Initialization</h3>
   <p>The <b>initialization</b> expression is always the <i>very first thing</i> to execute for a <code>for</code> loop. It runs exactly once, to kick off the whole looping process.</p>
 
