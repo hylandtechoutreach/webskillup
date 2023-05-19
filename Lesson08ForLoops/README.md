@@ -12,7 +12,7 @@ By the end of this lesson, participants will be able to:
 Have the participants complete the warm-up activity by following [the instructions](WarmUp.md). The idea is to show how annoying it is to repeat code manually.
 
 ## Introduction: Reading
-
+Let participants read through the [introductory reading](ForLoopReading.md), or the [advanced reading](https://javascript.info/while-for).
 
 ## Formative Assessment: ??
 
