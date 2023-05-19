@@ -36,9 +36,9 @@ All the real stuff
 - 9-9:15am | Tuesday Welcome
 - 9:15-10:45am | DOM Manipulation
 - 10:45-11am | Break
-- 11am-12pm | Arrays
+- 11am-12pm | For Loops
 - 12-1pm | Lunch
-- 1-2:15pm | For Loops
+- 1-2:15pm | Arrays
 - 2:15-2:30pm | Break
 - 2:45-4pm | Objects
 - 4-5pm | Conclusion
