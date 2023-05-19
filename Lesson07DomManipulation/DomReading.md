@@ -18,3 +18,15 @@ The [DOM Manipulation And Events](https://www.theodinproject.com/lessons/foundat
 
 ## `querySelector` vs. `getElementById`
 This [quick article](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1) touches on the differences between these two different ways to interact with the DOM.
+
+## HTML Inputs
+Learn more about all the different ways HTML input elements can work with data and styles.
+
+- [HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)
+  - [Test your skills](https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_HTML5_controls)
+- [Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)
+  - [Test your skills](https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Other_controls)
+- [UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
+  - [Test your skills](https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Advanced_styling)
+- [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+  - [Test your skills](https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Form_validation)
