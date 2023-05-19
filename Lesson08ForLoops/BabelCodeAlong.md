@@ -160,4 +160,6 @@ function generateImage() {
 ## Conclusion
 By the end of the activity, the project should look something like [this](https://replit.com/@HylandOutreach/BabelForLoop#script.js). Note that the only changes should have taken place in the **script.js** file.
 
+[Click here for some instructions to continue updating the site.](BabelUpdates.md)
+
 The key takeaway from this activity is that `for` loops make code much more extendable and maintainable. Imagine trying to update the original code to be a 4x4 grid without the use of a `for` loop; it would have been really annoying! Now, it's possible to create images of any dimension without changing too much. For loops make it possible to make code do a lot with only a few lines!
