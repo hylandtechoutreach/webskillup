@@ -14,8 +14,8 @@ Have the participants complete the warm-up activity by following [the instructio
 ## Introduction: Reading
 Let participants read through the [introductory reading](ForLoopReading.md), or the [advanced reading](https://javascript.info/while-for).
 
-## Formative Assessment: ??
-
+## Formative Assessment: Loop Tracing
+Have participants take the [Loop Tracing quiz](https://looptracing.hylandoutreach.repl.co/).
 
 ## Code-Along: Library of Babel
 Follow the [instructions](BabelCodeAlong.md) to update a webpage so that it uses a `for` loop. This will make the code much more maintainable and extendable.
@@ -30,7 +30,7 @@ There are some [instructions](BabelUpdates.md) for extending the project from th
 | Activity | Time |
 |-|-|
 | Warm-Up | 5m |
-| Introduction | 10m |
-| Formative Assessment | 10m |
-| Code-Along | 20m |
+| Introduction | 5m |
+| Formative Assessment | 5m |
+| Code-Along | 30m |
 | Self-Paced Work | 15m |
