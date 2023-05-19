@@ -22,8 +22,8 @@ The program consists of the following lessons:
 - [Lesson 5: Buttons & Functions](Lesson05ButtonsAndFunctions/StudentDesc.md)
 - [Lesson 6: Conditionals](Lesson06Conditionals/StudentDesc.md)
 - [Lesson 7: DOM Manipulation](Lesson07DomManipulation/StudentDesc.md)
-- [Lesson 8: Arrays](Lesson08Arrays/StudentDesc.md)
-- [Lesson 9: For Loops](Lesson09ForLoops/StudentDesc.md)
+- [Lesson 8: For Loops](Lesson08ForLoops/StudentDesc.md)
+- [Lesson 9: Arrays](Lesson09Arrays/StudentDesc.md)
 - [Lesson 10: Objects](Lesson10Objects/StudentDesc.md)
 
 ### Additional Topics
