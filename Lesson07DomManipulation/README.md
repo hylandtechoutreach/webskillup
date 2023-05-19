@@ -32,7 +32,7 @@ For experienced participants, there is some [advanced reading](DomReading.md).
 Walk through the [instructions](ShoppingListCodeAlong.md) with the participants to build a simple shopping list website with dynamically updating HTML.
 
 ## Self-Paced Work: Challenges
-Allow the students to work on the [challenges](DomChallenges.md).
+Allow the participants to work on the [challenges](DomChallenges.md).
 
 ## Agenda
 

@@ -10,7 +10,7 @@ By the end of this lesson, participants will be able to:
 - Ask questions with `prompt`
 
 ## Self-Paced Reading
-Instruct participants to read through the [Variables, Data Types, and `prompt`](VariablesDataPromptGuide.md) guide. This should familiarize them with the concepts needed for the lesson. Advanced students can read through the [in-depth further reading](FurtherReading.md).
+Instruct participants to read through the [Variables, Data Types, and `prompt`](VariablesDataPromptGuide.md) guide. This should familiarize them with the concepts needed for the lesson. Advanced participants can read through the [in-depth further reading](FurtherReading.md).
 
 ## Code-Along: Mad Libs
 Walk through the [instructions](MadLibsCodeAlong.md) with the participants.

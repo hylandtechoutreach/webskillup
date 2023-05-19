@@ -20,7 +20,7 @@ Walk through the [instructions](QuoteboardCodeAlong.md) with the participants.
 Present the [Functions as Objects PowerPoint](FunctionsAsObjects.pptx). This information may be quite advanced, so participants are welcome to tune it out if they would like.
 
 ## Self-Paced Work: Guided Activities & Challenges
-Introduce the self-paced work; some students may work on the [guided activities](FunctionsGuidedActivities.md), and others may work on the [challenges](FunctionsChallenges.md).
+Introduce the self-paced work; some participants may work on the [guided activities](FunctionsGuidedActivities.md), and others may work on the [challenges](FunctionsChallenges.md).
 
 ## Agenda
 
