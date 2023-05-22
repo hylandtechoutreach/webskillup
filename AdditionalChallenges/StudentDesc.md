@@ -5,4 +5,3 @@ Feel free to work on any of these challenges at any time. They can be quite adva
 
 - [Tower of Hanoi](https://www.mathsisfun.com/games/towerofhanoi.html)
 
-- [Funk Playlist](FunkPlaylistChallenge.md)
