@@ -1,4 +1,4 @@
-# 🔷 Advanced Topics
+# Advanced Topics
 If you're already familiar with the basics of HTML, check out some of these advanced HTML topics! Try to build a website that incorporates some or all of these features and ideas.
 
 - [Vector Graphics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)

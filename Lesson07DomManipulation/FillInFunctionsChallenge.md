@@ -1,4 +1,4 @@
-# 🔷 Advanced: Fill in the Functions
+# Challenge: Fill in the Functions
 There is a [starter project](https://replit.com/@HylandOutreach/DomChallenges) with a few different challenges built into it. Some additional research will likely be required. The goal is to fill out the functions in the **script.js** file with some DOM-manipulating code. Try to accomplish these challenges without updating any of the code in any of the other files!
 
 ## Challenge 1: Toggle Highlight

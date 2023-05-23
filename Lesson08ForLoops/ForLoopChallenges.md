@@ -4,7 +4,7 @@ Try your best to complete these challenges.
 ## Babel Updates
 [Click here to continue updating the Babel site.](BabelUpdates.md)
 
-## 🔷 Advanced: Additional Challenges
+## 🔷 Additional Challenges
 [Click here for some additional challenges.](AllForOneChallenges.md)
 
 ## Quiz

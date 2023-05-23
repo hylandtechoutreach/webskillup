@@ -43,7 +43,7 @@ When the `=` button is pressed, the program should:
 ### Resources
 The [`eval`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function can make this challenge _much_ easier.
 
-## 🔷 Advanced: Further Reading
+## 🔷 Further Reading
 For a more robust introduction to functions, read through some [JAVASCRIPT.INFO](https://javascript.info/) articles:
 
 - [Basics of Functions](https://javascript.info/function-basics)
