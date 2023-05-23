@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Lesson 9: Arrays · Web Skillup</title>
+        <title>Code-Along · Web Skillup</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="RestaurantsWarmUp.html" />
+    <link rel="next" href="WatchlistUpdates.html" />
     
     
-    <link rel="prev" href="../Lesson08ForLoops/AllForOneChallenges.html" />
+    <link rel="prev" href="RestaurantsWarmUp.html" />
     
 
     </head>
@@ -899,7 +899,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.10" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.10" data-path="StudentDesc.html">
             
                 <a href="StudentDesc.html">
             
@@ -926,7 +926,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10.2" data-path="WatchlistCodeAlong.html">
+        <li class="chapter active" data-level="1.10.2" data-path="WatchlistCodeAlong.html">
             
                 <a href="WatchlistCodeAlong.html">
             
@@ -1109,7 +1109,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Lesson 9: Arrays</a>
+        <a href=".." >Code-Along</a>
     </h1>
 </div>
 
@@ -1124,20 +1124,98 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="lesson-9-arrays">Lesson 9: Arrays</h1>
-<p>Learn how to create and use ordered collections of data.</p>
-<h2 id="warm-up-top-five-restaurants">Warm-Up: Top Five Restaurants</h2>
-<p><a href="RestaurantsWarmUp.html">Click here for warm-up instructions.</a></p>
-<h2 id="&#x1F7E2;-basic-concepts-introduction">&#x1F7E2; Basic Concepts Introduction</h2>
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechoutreach.github.io/webskillup/Lesson09Arrays/IntroductionToArrays.pptx" width="100%" height="450px" frameborder="0"></iframe>
+                                <h1 id="code-along-movie-watchlist">Code-Along: Movie Watchlist</h1>
+<p>Follow these instructions to build a movie watchlist website.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>To begin, fork <a href="https://replit.com/@HylandOutreach/Watchlist#index.html" target="_blank">this Starter Repl project</a>. It contains some HTML and CSS, but no JavaScript yet.</p>
+<h2 id="creating-the-array">Creating the Array</h2>
+<p>The first step is to create the array that will store the list of movies.</p>
+<ol>
+<li>Open the <strong>script.js</strong> file for editing</li>
+<li>At the top of the file, create a new variable named <code>moviesToWatch</code></li>
+<li>Set it equal to a new array with square brackets: <code>[</code> and <code>]</code></li>
+<li>In the array, add three string values, separated by commas:  <ul>
+<li><code>&quot;The Godfather&quot;</code></li>
+<li><code>&quot;Dog Day Afternoon&quot;</code></li>
+<li><code>&quot;The Deer Hunter&quot;</code></li>
+</ul>
+</li>
+</ol>
+<p>Feel free to change up the films if desired! The code should end up looking something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> moviesToWatch = [<span class="hljs-string">&quot;The Godfather&quot;</span>, <span class="hljs-string">&quot;Dog Day Afternoon&quot;</span>, <span class="hljs-string">&quot;The Deer Hunter&quot;</span>];
+</code></pre>
+<h2 id="defining-the-displaylist-function">Defining the <code>displayList</code> Function</h2>
+<p>Now it&apos;s time to start making the buttons functional. In the <strong>index.html</strong> file, there is a <code>&lt;button&gt;</code> with an <code>onclick</code> set to call the <code>displayList</code> function... but it doesn&apos;t exist yet. Define the function, and add an <code>alert</code> statement for testing purposes.</p>
+<p>Run the project, and verify that clicking the &quot;Display List&quot; button properly executes the code in the newly defined function. It should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">displayList</span>(<span class="hljs-params"></span>) </span>{
+  alert(<span class="hljs-string">&quot;Displaying List...&quot;</span>);
+}
+</code></pre>
+<h2 id="looping-through-the-array">Looping Through the Array</h2>
+<p>Now that the button is hooked up to a function, it has to do something. The goal is for this function to display each movie in the <code>moviesToWatch</code> array. Add the code to use a <code>for</code> loop to loop through each film in the array, and simply <code>alert</code> it.</p>
+<p>Run the project, click the &quot;Display List&quot; button, and verify that all movie titles are displayed. The code in the body of the <code>displayList</code> function should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; moviesToWatch.length; i++) {
+  <span class="hljs-keyword">let</span> movieTitle = moviesToWatch[i];
 
-<h2 id="code-along-movie-watchlist">Code-Along: Movie Watchlist</h2>
-<p><a href="WatchlistCodeAlong.html">Click here for the code-along instructions.</a></p>
-<h2 id="&#x1F537;-advanced-concepts-introduction">&#x1F537; Advanced Concepts Introduction</h2>
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechoutreach.github.io/webskillup/Lesson09Arrays/MoreWaysToArrays.pptx" width="100%" height="450px" frameborder="0"></iframe>
+  alert(movieTitle);
+}
+</code></pre>
+<h2 id="displaying-movies-in-html">Displaying Movies in HTML</h2>
+<p>Showing the movies in pop-ups is functional, but the user experience could definitely be better. Use some DOM manipulation to add the array items to the HTML list instead.</p>
+<h3 id="getting-the-list-element">Getting the List Element</h3>
+<p>The first step will be to grab the HTML <code>&lt;ul id=&quot;list&quot;&gt;&lt;/ul&gt;</code> so that we can add things to it. Use <code>document.querySelector</code> to accomplish this, and make sure to clear out any existing HTML within the element.</p>
+<p>Nothing should change at this point, but storing the value will make it possible to add list items for each movie. The additional JavaScript code should look something like this: </p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> listElement = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">&quot;#list&quot;</span>);
+listElement.innerHTML = <span class="hljs-string">&quot;&quot;</span>;
+</code></pre>
+<h3 id="creating-the-list-items">Creating the List Items</h3>
+<p>Now that the <code>&lt;ul id=&quot;list&quot;&gt;&lt;/ul&gt;</code> has been attained, it will be possible to add some list items. All of this will take place in the <em>body</em> of the <code>for</code> loop. Use <code>document.createElement</code> to make a new <code>&lt;li&gt;&lt;/li&gt;</code>, use <code>textContent</code> to set the text to the movie title, and then append the <code>&lt;li&gt;&lt;/li&gt;</code> to the <code>&lt;ul&gt;&lt;/ul&gt;</code></p>
+<p>Run the project, click the button, and verify that the movies are added to the page as bulleted list items. The additional code should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> itemElement = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&quot;li&quot;</span>);
+itemElement.textContent = movieTitle;
 
-<h2 id="self-paced-work-challenges">Self-Paced Work: Challenges</h2>
-<p><a href="ArraysChallenges.html">Click here for the challenges.</a></p>
+listElement.appendChild(itemElement);
+</code></pre>
+<h2 id="defining-the-addmovie-function">Defining the <code>addMovie</code> Function</h2>
+<p>Now the basic list is all set up, but it should also be possible to add a movie. There is an &quot;Add Movie&quot; button, but the function must be defined. Define the <code>addMovie</code> function like so:</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addMovie</span>(<span class="hljs-params"></span>) </span>{
+
+}
+</code></pre>
+<h2 id="getting-the-new-movie">Getting the New Movie</h2>
+<p>The function should start by getting a new movie to add. The easy way to do this is with a <code>prompt</code>, but an HTML input could work as well. Make sure to store the new movie title in a variable, something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> movieToAdd = prompt(<span class="hljs-string">&quot;Which movie do you want to add?&quot;</span>);
+</code></pre>
+<h2 id="adding-the-new-movie">Adding the New Movie</h2>
+<p>The next step is to add the movie title to the array using <code>push</code>. After that, call the <code>displayList</code> function to refresh the list with the new array value. It should look like this:</p>
+<pre><code class="lang-js">moviesToWatch.push(movieToAdd);
+displayList();
+</code></pre>
+<p>That&apos;s all for the basic watchlist!</p>
+<h2 id="final-code">Final Code</h2>
+<p>By the end of the activity, the JavaScript code in the <strong>script.js</strong> file should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> moviesToWatch = [<span class="hljs-string">&quot;The Godfather&quot;</span>, <span class="hljs-string">&quot;Dog Day Afternoon&quot;</span>, <span class="hljs-string">&quot;The Deer Hunter&quot;</span>];
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">displayList</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">let</span> listElement = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">&quot;#list&quot;</span>);
+  listElement.innerHTML = <span class="hljs-string">&quot;&quot;</span>;
+
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; moviesToWatch.length; i++) {
+    <span class="hljs-keyword">let</span> movieTitle = moviesToWatch[i];
+
+    <span class="hljs-keyword">let</span> itemElement = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&quot;li&quot;</span>);
+    itemElement.textContent = movieTitle;
+
+    listElement.appendChild(itemElement);
+  }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addMovie</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">let</span> movieToAdd = prompt(<span class="hljs-string">&quot;Which movie do you want to add?&quot;</span>);
+  moviesToWatch.push(movieToAdd);
+  displayList();
+}
+</code></pre>
 
                                 
                                 </section>
@@ -1165,12 +1243,12 @@
 
             
                 
-                <a href="../Lesson08ForLoops/AllForOneChallenges.html" class="navigation navigation-prev " aria-label="Previous page: All for One">
+                <a href="RestaurantsWarmUp.html" class="navigation navigation-prev " aria-label="Previous page: Warm-Up">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="RestaurantsWarmUp.html" class="navigation navigation-next " aria-label="Next page: Warm-Up">
+                <a href="WatchlistUpdates.html" class="navigation navigation-next " aria-label="Next page: Updates">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1181,7 +1259,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Lesson 9: Arrays","level":"1.10","depth":1,"next":{"title":"Warm-Up","level":"1.10.1","depth":2,"path":"Lesson09Arrays/RestaurantsWarmUp.md","ref":"Lesson09Arrays/RestaurantsWarmUp.md","articles":[]},"previous":{"title":"All for One","level":"1.9.4.2","depth":3,"path":"Lesson08ForLoops/AllForOneChallenges.md","ref":"Lesson08ForLoops/AllForOneChallenges.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson09Arrays/StudentDesc.md","mtime":"2023-05-23T19:25:49.797Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-23T19:26:21.505Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Code-Along","level":"1.10.2","depth":2,"next":{"title":"Updates","level":"1.10.2.1","depth":3,"path":"Lesson09Arrays/WatchlistUpdates.md","ref":"Lesson09Arrays/WatchlistUpdates.md","articles":[]},"previous":{"title":"Warm-Up","level":"1.10.1","depth":2,"path":"Lesson09Arrays/RestaurantsWarmUp.md","ref":"Lesson09Arrays/RestaurantsWarmUp.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson09Arrays/WatchlistCodeAlong.md","mtime":"2023-05-23T19:25:49.797Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-23T19:26:21.505Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

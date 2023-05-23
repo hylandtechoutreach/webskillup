@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Lesson 9: Arrays · Web Skillup</title>
+        <title>Updates · Web Skillup</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="RestaurantsWarmUp.html" />
+    <link rel="next" href="ArraysChallenges.html" />
     
     
-    <link rel="prev" href="../Lesson08ForLoops/AllForOneChallenges.html" />
+    <link rel="prev" href="WatchlistCodeAlong.html" />
     
 
     </head>
@@ -899,7 +899,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.10" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.10" data-path="StudentDesc.html">
             
                 <a href="StudentDesc.html">
             
@@ -940,7 +940,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.10.2.1" data-path="WatchlistUpdates.html">
+        <li class="chapter active" data-level="1.10.2.1" data-path="WatchlistUpdates.html">
             
                 <a href="WatchlistUpdates.html">
             
@@ -1109,7 +1109,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Lesson 9: Arrays</a>
+        <a href=".." >Updates</a>
     </h1>
 </div>
 
@@ -1124,20 +1124,122 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="lesson-9-arrays">Lesson 9: Arrays</h1>
-<p>Learn how to create and use ordered collections of data.</p>
-<h2 id="warm-up-top-five-restaurants">Warm-Up: Top Five Restaurants</h2>
-<p><a href="RestaurantsWarmUp.html">Click here for warm-up instructions.</a></p>
-<h2 id="&#x1F7E2;-basic-concepts-introduction">&#x1F7E2; Basic Concepts Introduction</h2>
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechoutreach.github.io/webskillup/Lesson09Arrays/IntroductionToArrays.pptx" width="100%" height="450px" frameborder="0"></iframe>
+                                <h1 id="self-paced-work-movie-watchlist-updates">Self-Paced Work: Movie Watchlist Updates</h1>
+<p>Follow these instructions to update the movie watchlist website.</p>
+<h2 id="numbered-html-list">Numbered HTML List</h2>
+<p>Currently, the list displays with bullet points. Update the code in the <strong>index.html</strong> file to make the list display as an <em>ordered</em> list.</p>
+<h2 id="more-different-starting-movies">More Different Starting Movies</h2>
+<p>Currently, there should be three movies when the <code>moviesToWatch</code> array is initially created. Under that, add some new movies to the list! In addition to adding new movies, update some of the existing movies as well.</p>
+<p>Remember, to add an item to an array, use the <code>push</code> function. It should look something like this for an array named <code>myArray</code>:</p>
+<pre><code class="lang-js">myArray.push(<span class="hljs-string">&quot;My new item&quot;</span>);
+</code></pre>
+<p>To update an existing value in an array, use the array name, square brackets, and the index of the value. It should look something like this for an array named <code>myArray</code>:</p>
+<pre><code class="lang-js">myArray[<span class="hljs-number">1</span>] = <span class="hljs-string">&quot;My updated second item&quot;</span>;
+</code></pre>
+<p>Note that the updates to the array values should <em>not</em> happen when the array is initially created! The line below should remain the same:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> moviesToWatch = [<span class="hljs-string">&quot;The Godfather&quot;</span>, <span class="hljs-string">&quot;Dog Day Afternoon&quot;</span>, <span class="hljs-string">&quot;The Deer Hunter&quot;</span>];
+</code></pre>
+<h2 id="movie-edits">Movie Edits</h2>
+<p>Currently, there is no way to adjust a movie once it has been added to the Watchlist. First, create a new <code>&lt;button&gt;&lt;/button&gt;</code> in the HTML, and hook it up to a function named <code>editMovie</code>. Then, in the body of the <code>editMovie</code> function:</p>
+<ol>
+<li>Get an index for a movie to edit with a <code>prompt</code></li>
+<li>Get a new movie title with another <code>prompt</code></li>
+<li>Set the value of the array at the index to be the new movie title</li>
+<li>Call the <code>displayList</code> function</li>
+</ol>
+<p>Test out the button to make sure it is possible to edit the existing list.</p>
+<h2 id="challenge-1---item-number-instead-of-index">Challenge 1 - Item Number Instead of Index</h2>
+<p>Currently, the <code>editMovie</code> function will edit an item by its index. For example, if the user entered <code>1</code> for the index, it would edit the <em>second</em> item in the array. Update this so that instead of using the index directly, it subtracts one from what the user enters; that way, if for example the user enters <code>2</code> for the item they want to edit, it will edit the item at index <code>1</code> (the actual <em><code>2</code>nd</em> element).</p>
+<h2 id="challenge-2---deleting-a-movie">Challenge 2 - Deleting a Movie</h2>
+<p>Currently, there is no way to remove a movie from the watchlist. Add a button that allows the user to delete an item by its index.</p>
+<h3 id="background">Background</h3>
+<p>Unfortunately, there is not a direct way to do this in JavaScript; however, the <code>splice</code> method generally works fairly well. Here is an <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_remove" target="_blank">example</a>, and here is some more in-depth <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice" target="_blank">documentation</a>.</p>
+<h3 id="process">Process</h3>
+<p>The process will be similar to the other functionality. Create a new <code>&lt;button&gt;</code>, and hook it up to a function that:</p>
+<ol>
+<li>Gets the index</li>
+<li>Removes the value from the array</li>
+<li>Calls the <code>displayList</code> function</li>
+</ol>
+<p>After adding the code, test it out to make sure movies can be removed from the list.</p>
+<h2 id="challenge-3---persistent-movies">Challenge 3 - Persistent Movies</h2>
+<p>This challenge will require a bit of additional research. The goal is to store the list of movies somewhere so that if a user reloads the page, it remembers what the movies were.</p>
+<blockquote>
+<p><em>Note: This guide is quite detailed, but feel free to implement this functionality without reading through all the specifics. Just know that <code>localStorage</code> makes it possible.</em></p>
+</blockquote>
+<h3 id="background-local-storage">Background: Local Storage</h3>
+<p>This is possible using something called <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank"><code>localStorage</code></a> - it&apos;s basically a way to store data in the browser for a given user. This can make basic front-end web applications much more powerful!</p>
+<p><code>localStorage</code> has two main functions: storing values (setting), and retrieving values (getting).</p>
+<h4 id="setting-an-item">Setting an Item</h4>
+<p>Setting an item looks like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> myName = <span class="hljs-string">&quot;John Cazale&quot;</span>;
 
-<h2 id="code-along-movie-watchlist">Code-Along: Movie Watchlist</h2>
-<p><a href="WatchlistCodeAlong.html">Click here for the code-along instructions.</a></p>
-<h2 id="&#x1F537;-advanced-concepts-introduction">&#x1F537; Advanced Concepts Introduction</h2>
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechoutreach.github.io/webskillup/Lesson09Arrays/MoreWaysToArrays.pptx" width="100%" height="450px" frameborder="0"></iframe>
+localStorage.setItem(<span class="hljs-string">&quot;name&quot;</span>, myName);
+</code></pre>
+<h4 id="getting-an-item">Getting an Item</h4>
+<p>If an item has already been stored, you can get it like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> myValue = localStorage.getItem(<span class="hljs-string">&quot;name&quot;</span>);
+</code></pre>
+<h3 id="background-json-strings">Background: JSON Strings</h3>
+<p>The <code>localStorage</code> object can only store string values - this means that we cannot directly store an array. However, it is possible to work around this using <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">JSON</a> strings. Essentially, we can convert an array to a string to store it, and then convert it back to an array when we grab it.</p>
+<h4 id="array-to-string">Array to String</h4>
+<p>To convert an array into a string, use <code>JSON.stringify</code> like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> myArray = [<span class="hljs-string">&quot;Sunday&quot;</span>, <span class="hljs-string">&quot;Monday&quot;</span>, <span class="hljs-string">&quot;Tuesday&quot;</span>];
+<span class="hljs-keyword">let</span> myString = <span class="hljs-built_in">JSON</span>.stringify(myArray);
 
-<h2 id="self-paced-work-challenges">Self-Paced Work: Challenges</h2>
-<p><a href="ArraysChallenges.html">Click here for the challenges.</a></p>
+<span class="hljs-comment">// myString will be the string version of the array: `[&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;]`</span>
+</code></pre>
+<h4 id="string-to-array">String to Array</h4>
+<p>To convert a string into an array, use <code>JSON.parse</code> like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> myString = <span class="hljs-string">`[&quot;Sunday&quot;,&quot;Monday&quot;,&quot;Tuesday&quot;]`</span>;
+<span class="hljs-keyword">let</span> myArray = <span class="hljs-built_in">JSON</span>.parse(myString);
+
+<span class="hljs-comment">// myArray will be the actual array object: [&quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;]</span>
+</code></pre>
+<h3 id="background-localstorage--json-strings">Background: <code>localStorage</code> + JSON Strings</h3>
+<p>Combine these two concepts to successfully store array objects within <code>localStorage</code>! Here is a <a href="https://stackoverflow.com/questions/3357553/how-do-i-store-an-array-in-localstorage" target="_blank">brief explanation</a>.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// Storing myArray in localStorage</span>
+<span class="hljs-keyword">let</span> myArray = [<span class="hljs-string">&quot;Leonardo&quot;</span>, <span class="hljs-string">&quot;Raphael&quot;</span>, <span class="hljs-string">&quot;Donatello&quot;</span>, <span class="hljs-string">&quot;Michelangelo&quot;</span>];
+<span class="hljs-keyword">let</span> myArrayString = <span class="hljs-built_in">JSON</span>.stringify(myArray);
+localStorage.setItem(<span class="hljs-string">&quot;myArray&quot;</span>, myArrayString);
+
+<span class="hljs-comment">// Retrieving myArray from localStorage</span>
+<span class="hljs-keyword">let</span> myStoredArrayString = localStorage.getItem(<span class="hljs-string">&quot;myArray&quot;</span>);
+<span class="hljs-keyword">let</span> myStoredArray = <span class="hljs-built_in">JSON</span>.parse(myStoredArrayString);
+
+<span class="hljs-comment">// At this point, myStoredArray will contain the array object from myArray!</span>
+</code></pre>
+<h3 id="implementation-updating-the-movie-watchlist">Implementation: Updating the Movie Watchlist</h3>
+<p>After trying to grasp the concepts of <code>localStorage</code> and JSON strings, apply them to the Movie Watchlist website!</p>
+<h4 id="storing-the-movies-array">Storing the Movies Array</h4>
+<p>A good place to store the current movies would be in the <code>displayList</code> function.</p>
+<ol>
+<li>Go to the bottom of the <code>displayList</code> function</li>
+<li>Create a new variable named <code>stringToStore</code></li>
+<li>Call the <code>JSON.stringify</code> function on <code>moviesToWatch</code>, and store it in the <code>stringToStore</code> variable</li>
+<li>Under that, call the <code>localStorage.setItem</code> function</li>
+<li>Pass in <code>&quot;moviesToWatch&quot;</code> as the first argument, and <code>stringToStore</code> as the second argument</li>
+</ol>
+<p>This should successfully store the value in <code>localStorage</code> every time the user clicks the &quot;Display List&quot; button. It is possible to check this out by opening up developer tools, going to the &quot;Application&quot; window, and clicking on the &quot;localStorage&quot; option. Here is a <a href="https://stackoverflow.com/questions/9404813/how-to-view-or-edit-localstorage" target="_blank">quick example</a> - it&apos;s not necessary to look at it there, but it&apos;s pretty cool!</p>
+<h4 id="retrieving-the-movies-array">Retrieving the Movies Array</h4>
+<p>Now that the movies array has been stored, it can be retrieved! Instead of setting the <code>moviesToWatch</code> array statically at the top of the file, use <code>localStorage</code> to check if there is a stored version of the array.</p>
+<ol>
+<li>At the very top of the file, create a new variable named <code>storedMoviesString</code></li>
+<li>Call the <code>localStorage.getItem</code> function, passing in <code>&quot;moviesToWatch&quot;</code> as the argument<ul>
+<li>Set <code>storedMovieString</code> to this value</li>
+</ul>
+</li>
+<li>Under that, create the <code>moviesToWatch</code> variable - but with no value!</li>
+<li>Under that, create an <code>if</code>/<code>else</code> structure</li>
+<li>For the <code>if</code> condition, simply pass in <code>storedMoviesString</code><ul>
+<li>This checks if the variable has any value</li>
+</ul>
+</li>
+<li>In the body of the <code>if</code> (between <code>{</code> and <code>}</code>), set the <code>moviesToWatch</code> variable</li>
+<li>Call <code>JSON.parse</code>, and pass in <code>storedMoviesString</code> - store that result inb <code>moviesToWatch</code></li>
+<li>In the body of the <code>else</code>, set the <code>moviesToWatch</code> variable to the original starter array</li>
+</ol>
+<p>Now, the first time the page loads, it should set the <code>moviesToWatch</code> array to <code>[&quot;The Godfather&quot;, &quot;Dog Day Afternoon&quot;, &quot;The Deer Hunter&quot;]</code>. However, if the user decides to add, edit, or delete any movies, the <code>moviesToWatch</code> array should update, and persist to <code>localStorage</code>. When the page is loaded again, it should retrieve the stored movie list!</p>
 
                                 
                                 </section>
@@ -1165,12 +1267,12 @@
 
             
                 
-                <a href="../Lesson08ForLoops/AllForOneChallenges.html" class="navigation navigation-prev " aria-label="Previous page: All for One">
+                <a href="WatchlistCodeAlong.html" class="navigation navigation-prev " aria-label="Previous page: Code-Along">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="RestaurantsWarmUp.html" class="navigation navigation-next " aria-label="Next page: Warm-Up">
+                <a href="ArraysChallenges.html" class="navigation navigation-next " aria-label="Next page: Challenges">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1181,7 +1283,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Lesson 9: Arrays","level":"1.10","depth":1,"next":{"title":"Warm-Up","level":"1.10.1","depth":2,"path":"Lesson09Arrays/RestaurantsWarmUp.md","ref":"Lesson09Arrays/RestaurantsWarmUp.md","articles":[]},"previous":{"title":"All for One","level":"1.9.4.2","depth":3,"path":"Lesson08ForLoops/AllForOneChallenges.md","ref":"Lesson08ForLoops/AllForOneChallenges.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson09Arrays/StudentDesc.md","mtime":"2023-05-23T19:25:49.797Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-23T19:26:21.505Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Updates","level":"1.10.2.1","depth":3,"next":{"title":"Challenges","level":"1.10.3","depth":2,"path":"Lesson09Arrays/ArraysChallenges.md","ref":"Lesson09Arrays/ArraysChallenges.md","articles":[{"title":"Playlist Website","level":"1.10.3.1","depth":3,"path":"Lesson09Arrays/PlaylistWebsiteChallenge.md","ref":"Lesson09Arrays/PlaylistWebsiteChallenge.md","articles":[]},{"title":"Tic-Tac-Toe","level":"1.10.3.2","depth":3,"path":"Lesson09Arrays/TicTacToeChallenges.md","ref":"Lesson09Arrays/TicTacToeChallenges.md","articles":[]}]},"previous":{"title":"Code-Along","level":"1.10.2","depth":2,"path":"Lesson09Arrays/WatchlistCodeAlong.md","ref":"Lesson09Arrays/WatchlistCodeAlong.md","articles":[{"title":"Updates","level":"1.10.2.1","depth":3,"path":"Lesson09Arrays/WatchlistUpdates.md","ref":"Lesson09Arrays/WatchlistUpdates.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Web Skillup","gitbook":"*"},"file":{"path":"Lesson09Arrays/WatchlistUpdates.md","mtime":"2023-05-23T19:25:49.797Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-23T19:26:21.505Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
