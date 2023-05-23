@@ -98,4 +98,4 @@ Update this website so that it has more of the functionality from the [Movie Wat
 This may be quite challenging, but it is definitely possible 😁
 
 ## Challenge 8 - Saving the List with `localStorage`
-Similar to the challenge from the [Self-Paced Work](SelfPacedWork.md), try to use `localStorage` to store the `songs` array so it persists! This challenge only makes sense if the challenge above has been completed.
+Similar to the challenge from the [Watchlist Updates](WatchlistUpdates.md), try to use `localStorage` to store the `songs` array so it persists! This challenge only makes sense if the challenge above has been completed.
