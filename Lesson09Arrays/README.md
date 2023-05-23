@@ -18,7 +18,7 @@ The [basic presentation](IntroductionToArrays.pptx) introduces the concept of ar
 Follow the [instructions](WatchlistCodeAlong.md) to build up a website meant to track movies on a watchlist.
 
 ## Advanced Presentation: More Ways to Array
-The [advanced presentation](MoreWaysToArray.pptx) introduces array methods like `filter` and `map`, as well as different syntaxes like [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) and [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax).
+The [advanced presentation](MoreWaysToArrays.pptx) introduces array methods like `filter` and `map`, as well as different syntaxes like [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) and [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax).
 
 ## Self-Paced Work: Challenges
 There are some additional [challenges](ArraysChallenges.md), some of which are basic, and some of which are advanced.
@@ -28,7 +28,7 @@ There are some additional [challenges](ArraysChallenges.md), some of which are b
 | Activity | Time |
 |-|-|
 | Warm-Up | 5m |
-| Basic Presentation | 15m |
-| Code-Along | 15m |
+| Basic Presentation | 10m |
+| Code-Along | 10m |
 | Advanced Presentation | 10m |
-| Self-Paced Work | 30m |
+| Self-Paced Work | 40m |
