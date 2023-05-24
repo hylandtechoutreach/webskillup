@@ -1,4 +1,4 @@
-# Arrays
+# Lesson 9: Arrays
 Introduce [arrays](https://www.w3schools.com/js/js_arrays.asp) as a way to store list data.
 
 ## Learning Objectives
