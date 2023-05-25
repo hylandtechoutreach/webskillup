@@ -1,4 +1,4 @@
-# Self-Paced Work: Challenges
+# Challenges: For Loops
 Try your best to complete these challenges.
 
 ## Babel Updates

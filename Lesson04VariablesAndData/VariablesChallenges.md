@@ -1,4 +1,4 @@
-# Variables Challenges
+# Challenges: Variables
 Complete these challenges.
 
 ## Mad Libs Updates
