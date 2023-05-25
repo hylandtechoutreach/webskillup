@@ -12,9 +12,9 @@ By the end of this lesson, participants will be able to:
 Let participants read through the [introductory reading](https://www.w3schools.com/js/js_objects.asp), or the [advanced reading](https://javascript.info/object).
 
 ### Formative Assessment: Object Interaction
-After reading, have participants take the [Object Interaction quiz](https://replit.com/@HylandOutreach/ObjectInteraction#README.md).
+After reading, have participants work on the [Object Interaction project](https://replit.com/@HylandOutreach/ObjectInteraction#README.md).
 
-## Code-Along: Food Picker
+## Code-Along: Food Decider
 Follow the [instructions](FoodDeciderCodeAlong.md) to build up a website meant to help hungry visitors decide which food to eat. By the end of the activity, the project should be something like [this](https://replit.com/@HylandOutreach/FoodDeciderComplete#script.js).
 
 ## Self-Paced Work: Challenges
