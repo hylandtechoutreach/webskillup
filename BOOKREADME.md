@@ -28,5 +28,8 @@ Each lesson contains several opportunities to practice the concepts. Beyond that
 ### Additional Topics
 In the event that all lessons have been completed before the end of the program, there are some [additional topics](AdditionalTopics/StudentDesc.md) to explore.
 
-## Resources
-[Click here for some helpful resources.](Resources.md)
+## End-of-Program Feedback Survey
+Once the program has concluded, [click here to access the end-of-program survey](https://forms.gle/FNVkqvmtnv7a8L7M8).
+
+## Continued Learning
+[Click here for some helpful resources for continued learning.](ContinuedLearning.md)

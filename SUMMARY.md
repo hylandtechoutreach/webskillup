@@ -82,4 +82,4 @@
     - [Example: Macro Randomizer](AdditionalTopics/ApiExamples/MacroRandomizer.md)
     - [Example: Color Schemes](AdditionalTopics/ApiExamples/ColorSchemes.md)
     - [Example: TV](AdditionalTopics/ApiExamples/TvCharacters.md)
-- [Resources](Resources.md)
+- [Continued Learning](ContinuedLearning.md)
