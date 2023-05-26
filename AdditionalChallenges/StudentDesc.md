@@ -1,7 +1,17 @@
 # Additional Challenges
-Feel free to work on any of these challenges at any time. They can be quite advanced, but they may show a bit more of what is possible with JavaScript, and provide a chance to practice more skills.
+Feel free to work on any of these challenges at any time. They go beyond the basic scope of the program, but they provide additional opportunities to learn and practice some important computer science skills.
 
-- [Self-Check: Quiz](https://www.codequizzes.com/javascript/beginner/operators-conditionals-loops-arrays)
+## 🟢 Debugging Practice
+Become exterminator extraordinaire by completing these [bug fixing challenges](DebuggingPractice.md).
 
-- [Tower of Hanoi](https://www.mathsisfun.com/games/towerofhanoi.html)
+## 🟢 Callback Functions: Funk Information
+Follow [these instructions](FunktionalGuidedActivity.md) to start updating a website about Funk music, and then complete [these challenges](FunktionalChallenges.md) to keep enhancing the site.
 
+## 🔷 Callback Functions: Another Playlist
+Complete [these challenges](FunkPlaylist.md) to make a more functional playlist.
+
+## 🟢 Arrow Functions: Cereal Mascots for Some Reason
+Follow [these instructions](MascotsGuidedActivity.md) to start updating a website with virtual trading cards, and then complete [these challenges](MascotsChallenges.md) to keep enhancing the site.
+
+## 🟢🔷 Menu Application
+Follow [these instructions](MenuChallenges.md) to work on a restaurant menu website.
