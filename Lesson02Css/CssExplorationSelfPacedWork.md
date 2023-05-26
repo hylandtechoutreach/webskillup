@@ -7,3 +7,4 @@ Browse through some of the resources below, and try to include some of your lear
   - Check out some fun topics like [animations](https://www.w3schools.com/css/css3_animations.asp) and [transforms](https://www.w3schools.com/css/css3_2dtransforms.asp) too
 - Follow along with the [Bootstrap Guided Activity](Bootstrap.md) to see a basic example of clean, responsive design in action!
 - Explore the power of [CSS Pre-processors](CssPreprocessors.md)
+- Learn how [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) can make styles more scalable
