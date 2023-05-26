@@ -1,7 +1,2 @@
 # Additional Topics
-Some extra stuff
-
-- [JavaScript Questions](https://github.com/lydiahallie/javascript-questions#javascript-questions)
-- [Ninja code](https://javascript.info/ninja-code)
-- [Coding style](https://javascript.info/coding-style)
-- [Comments](https://javascript.info/comments)
+These [additional topics](StudentDesc.md) can be explored by participants at their own pace.

@@ -15,3 +15,6 @@ Follow [these instructions](MascotsGuidedActivity.md) to start updating a websit
 
 ## 🟢🔷 Menu Application
 Follow [these instructions](MenuChallenges.md) to work on a restaurant menu website.
+
+## 🟢🔷 Self-Check: Quiz
+Look through some of [these questions](https://www.codequizzes.com/javascript/beginner/operators-conditionals-loops-arrays) to test your JavaScript knowledge.
