@@ -11,7 +11,7 @@ This program is designed to be very flexible, but it may be helpful to have some
 | Time | Section |
 |-|-|
 | 10-10:30am | [Preface](Preface/) |
-| 10:30am-12pm | [HTML](Lesson01Html/), [CSS](Lesson02Css/), & [Hello JS](Lesson03/HelloJs) |
+| 10:30am-12pm | [HTML](Lesson01Html/), [CSS](Lesson02Css/), & [Hello JS](Lesson03HelloJs/) |
 | 12-1pm | Lunch |
 | 1-2pm | [Variables & Data](Lesson04VariablesAndData/) |
 | 2-2:15pm | Break |
