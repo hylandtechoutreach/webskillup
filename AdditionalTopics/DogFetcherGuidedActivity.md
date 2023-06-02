@@ -6,8 +6,6 @@ Follow these instructions to build a website that will provide the user with som
 ## Part One: Background
 Typically, dogs play fetch. In this activity, _your code_ is going to be playing fetch, and the things that your code will be fetching will be dogs!
 
-![](Assets/DogPlayingFetch.jpg)
-
 ### The Starter Code
 The starter project has quite a bit of code, but it's all HTML and CSS! In the **index.html** file, there are a few elements of note:
 
