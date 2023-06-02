@@ -46,7 +46,7 @@
     - [Table Data](Lesson07DomManipulation/TableDataChallenge.md)
     - [Fill-in Functions](Lesson07DomManipulation/FillInFunctionsChallenge.md)
 - [Lesson 8: For Loops](Lesson08ForLoops/StudentDesc.md)
-  - [Loops Warm-Up](Lesson08ForLoops/CountingWarmUp.md)
+  - [Counting Warm-Up](Lesson08ForLoops/CountingWarmUp.md)
   - [Loops Introduction](Lesson08ForLoops/IntroductionToForLoops.md)
   - [Babel Code-Along](Lesson08ForLoops/BabelCodeAlong.md)
   - [For Loop Challenges](Lesson08ForLoops/ForLoopChallenges.md)
