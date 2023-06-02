@@ -10,5 +10,5 @@ Learn how to store and use data in JavaScript.
 ## 🔷 Advanced: In-Depth Exploration
 [Click here for more reading on these topics.](FurtherReading.md)
 
-### Self-Paced Work: Challenges
+## Self-Paced Work: Challenges
 [Click here for some challenges.](VariablesChallenges.md)
