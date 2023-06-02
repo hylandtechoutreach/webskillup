@@ -31,7 +31,8 @@ This program is designed to be very flexible, but it may be helpful to have some
 | 12-1pm | Lunch |
 | 1-2:15pm | [Arrays](Lesson09Arrays/) |
 | 2:15-2:30pm | Break |
-| 2:45-4pm | [Objects](Lesson10Objects/) |
+| 2:30-3:45pm | [Objects](Lesson10Objects/) |
+| 3:45-4pm | Additional [Challenges](AdditionalChallenges/) & [Topics](AdditionalTopics/) |
 | 4-5pm | [Conclusion](Conclusion/) |
 
 ### Extras
