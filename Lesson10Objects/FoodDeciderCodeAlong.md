@@ -35,7 +35,7 @@ The added code should look something like this:
 
 ```js
 let randomItemIndex = getRandomInt(items.length);
-let randomItem = items[randomItemIndex];
+let item = items[randomItemIndex];
 ```
 
 The button will not do anything yet... but now the function has all the necessary information about the item.
