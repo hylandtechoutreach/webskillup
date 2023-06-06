@@ -1,6 +1,12 @@
 # Web Skillup
 Welcome to the Web Skillup program, presented by the Hyland Tech Outreach team!
 
+## Zoom Information
+Click the links below to join the Zoom meetings.
+
+- [R&D Training Room 1](https://hyland.zoom.us/j/95530004039?pwd=bUovSEpOa1JOaDJrRm5WVzNMdVNSQT09&from=addon)
+- [R&D Training Room 2](https://hyland.zoom.us/j/96123842214?pwd=MWsyZUV6dU1EeEU3UGZhRVBpYTNaZz09&from=addon)
+
 ## Program Overview
 This program is designed to cover essential web development concepts in HTML, CSS, and JavaScript. By the end of day two, all participants should have a solid grasp of the code in [this project](https://replit.com/@HylandOutreach/WebSkillupMvp).
 
